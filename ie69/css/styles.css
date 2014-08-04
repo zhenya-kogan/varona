@@ -1,0 +1,139 @@
+div, h1, h2, h3, h4, h5, h6, span, img, a, p, body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+    font-size: 14px;
+    padding: 0 0 50px;
+    margin: 0 auto;
+}
+
+.overflowWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.statcounter {
+    color: #ffffff;
+    display: none;
+}
+
+.farFarAway {
+    color: #ffffff;
+    display: none;
+    position: absolute;
+    top: -99999px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+.wholeWrapper {
+    margin: 100px auto 0;
+    width: 175px;
+}
+
+.logo {
+    clear: both;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.logoLeft {
+    float: left;
+}
+
+.logoRight {
+    float: left;
+    padding: 17px 0 0 2px;
+    position: relative;
+}
+
+.logoIE9 {
+    display: none;
+    left: -7px;
+    position: absolute;
+    top: 0;
+}
+
+.logoRightBlack {
+    display: none;
+    left: 132px;
+    padding: 17px 0 0 2px;
+    position: absolute;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    top: 17px;
+}
+
+.taglinePlacer {
+    font-size: 14px;
+    height: 80px;
+    position: relative;
+    width: 100%;
+}
+
+.start {
+    color: #0000ee;
+    cursor: pointer;
+    margin: 50px 0 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tagline {
+    left: 200000px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+}
+
+.browsers {
+    display: none;
+    margin: 0 auto;
+    width: 280px;
+}
+
+.browsers ul {
+    height: 75px;
+    margin: 0 auto;
+}
+
+.browsers li {
+    float: left;
+    padding: 0 10px;
+}
+
+.browsers p.consider {
+    margin: 20px 0 15px 15px;
+}
+
+.browsers a {
+    font-size: 10px;
+}
+
+.browsers li p {
+    text-align: center;
+}
+
+.reset {
+    color: #0000ee;
+    cursor: pointer;
+    display: none;
+    font-size: 10px;
+    margin: 30px 0 0;
+    text-align: center;
+    text-decoration: underline;
+}
+

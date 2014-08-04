@@ -1,0 +1,726 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(../images/whitenoise.gif) repeat;
+	font-family: arial, serif;
+	font-size: 13px;
+    line-height: 1.3em;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	outline: none;
+}
+
+a img {
+    border: none;
+}
+
+.social_links {
+    /*position: fixed;
+    right: 0;
+    top: 25px;*/
+}
+
+.social_wrapper {
+    clear: both;
+    /*float: right;*/
+    margin-bottom: 10px;
+}
+
+.twitter_wrapper,
+.fb_wrapper {
+    background: #fff;
+    /*border: 1px solid #dcdcdc;*/
+}
+
+.twitter_wrapper {
+    padding: 10px;
+}
+
+.homePage .twitterWrapper {
+    margin: 40px auto 0;
+    width: 400px;
+}
+
+.audioPlayer {
+	margin: 20px auto 20px auto;
+	padding: 0;
+    width: 400px;
+}
+
+.homePage p {
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 3px;
+    width: 397px;
+}
+
+.homePage p .attention {
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.homePage ul.latestNews {
+    list-style-type: none;
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 3px;
+    width: 397px;
+}
+
+.homePage .latestNews li {
+    margin: 0 0 7px 0;
+    padding: 0;
+}
+
+.homePage .latestNews li a {
+    color: #000000;
+}
+
+.homePage .latestNews table {
+    margin: 0;
+    padding: 0;
+}
+
+.homePage .latestNews tr {
+    margin: 0;
+    padding: 0;
+}
+
+.homePage .latestNews td {
+    margin: 0;
+    padding: 0;
+}
+
+.homePage .latestNews form {
+    margin: 0;
+    padding: 0;
+}
+
+.homePage .emailSignUp {
+    margin: 40px auto 0 auto;
+    padding: 0;
+    width: 400px;
+}
+
+.homePage .emailSignUpPrivacy {
+    margin: 5px auto 0 auto;
+    padding: 0;
+    width: 400px;
+}
+
+.page {
+    /*float: left;*/
+	/*font-size: 13px;*/
+	background: #ffffff;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+    padding: 0;
+	width: 99%;
+    min-width: 1140px;
+}
+
+.page.homePage {
+    background: #ffffff url(../images/bg-manHouse.jpg) no-repeat right bottom;
+    min-height: 560px;
+}
+
+/*following will override properties for fucking ie6*/
+/*\*/ * html .page.homePage {
+    height: 560px;
+} /**/
+
+.innerWrapper {
+    clear: both;
+    float: left;
+    min-height: 560px;
+    width: 100%;
+	padding: 40px 0 40px 0;
+}
+
+/*following will override properties for fucking ie6*/
+/*\*/ * html .innerWrapper {
+    height: 560px;
+} /**/
+
+.homePage .innerWrapper {
+    background: transparent url(../images/bg-fishFlower.jpg) no-repeat left bottom;
+}
+
+.showsPage .innerWrapper {
+    background: transparent url(../images/bg-birds.jpg) no-repeat right top;
+}
+
+.discographyPage .innerWrapper {
+    background: transparent url(../images/bg-fish.jpg) no-repeat right bottom;
+    min-height: 740px;
+}
+
+/*following will override properties for fucking ie6*/
+/*\*/ * html .discographyPage .innerWrapper {
+    height: 740px;
+} /**/
+
+.aboutPage .innerWrapper {
+    /*background: transparent url(../images/bg-girlsBeast.jpg) no-repeat right bottom;*/
+    min-height: 475px;
+    padding: 40px 0 30px 0;
+}
+
+/*following will override properties for fucking ie6*/
+/*\*/ * html .aboutPage .innerWrapper {
+    height: 465px;
+} /**/
+
+.networkPage .innerWrapper {
+    background: transparent url(../images/bg-manShadow.jpg) no-repeat left bottom;
+}
+
+.linksPage .innerWrapper {
+    background: transparent url(../images/bg-birdsBoat.jpg) no-repeat left bottom;
+}
+
+.bandLogoPlacer {
+    left: 30px;
+    height: 0;
+    position: relative;
+    top: 0;
+    width: 0;
+}
+
+.bandLogo {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.mainNav,
+.secondNav {
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+	margin: 20px auto 0 auto;
+	padding: 0;
+    text-align: center;
+}
+
+.mainNav span,
+.secondNav span {
+    background: #ffffff;
+	padding: 0 10px 0 10px;
+}
+
+.mainNav span.active {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.mainNav a {
+	border: none;
+    color: #000000;
+    cursor: pointer;
+	text-decoration: underline;
+}
+
+.mainNav a img {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.shareThisLink {
+    display: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 0 20px 0 0;
+}
+
+.shareThisLink a {
+    color: #000000;
+}
+
+.shareThisLink.top {
+    line-height: 25px;
+    margin: 0 0 12px 0;
+}
+
+.pageContentWrapper {
+    width: 100%;
+}
+
+.pageContentInnerWrapper {
+    margin: 70px 0 0 0;
+    padding: 0 10% 0 10%;
+}
+
+.pageContentInnerWrapper.left {
+    padding: 0 400px 0 100px;
+}
+
+.pageContentInnerWrapper.right {
+    padding: 0 100px 0 400px;
+}
+
+.homePage .pageContentInnerWrapper {
+    margin: 60px 0 0 0;
+}
+
+.showsPage .pageContentInnerWrapper {
+    margin: 104px 0 0 0;
+}
+
+.discographyPage .pageContentInnerWrapper {
+    padding: 0 0 0 100px;
+}
+
+.linksPage .pageContentInnerWrapper {
+    padding: 0 20px 0 520px;
+}
+
+.pageContent {
+    margin: 0 auto 0 auto;
+    max-width: 800px;
+}
+
+.discographyPage .pageContent {
+    margin: 0;
+    max-width: 1140px;
+}
+
+.pageSeparator {
+	background: #ffffff;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	margin: 10px 0 0 0;
+	width: 99%;
+    min-width: 1140px;
+}
+
+.pageSeparatorLyrics {
+	margin: 0;
+	padding: 15px 30px 15px 30px;
+}
+
+.navAnchor {
+	height: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	background: #ffffff;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	margin: 10px 0 0 0;
+	padding: 0;
+	width: 99%;
+    min-width: 1140px;
+}
+
+.footerDisclaimer {
+	margin: 0;
+	padding: 15px 30px 15px 30px;
+}
+
+/* page specific */
+
+/* home */
+
+#webOrder {
+    display: block;
+}
+
+#albumOrder {
+    display: none;
+}
+
+.audioPlayer .order {
+    background: #ffffff;
+    font-size: 11px;
+    padding: 0 0 0 3px;
+}
+
+.audioPlayer .order a {
+    color: #000000;
+}
+
+#webOrderFootnote {
+    display: block;
+}
+
+#albumOrderFootnote {
+    display: none;
+}
+
+.audioPlayer .addToCart {
+    margin: 10px 0 0 0;
+}
+
+
+/* end of home */
+
+/* shows */
+
+#shows {
+	background: #000000;
+	clear: both;
+	color: #000000;
+	float: left;
+	font-size: 1px;
+	line-height: 1px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.showsList {
+	margin: 0 0 40px 0;
+	padding: 0;
+}
+
+.showsList ul {
+/*	clear: both;
+	float: left;*/
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.showsList li {
+/*	clear: both;
+	float: left;*/
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.showsList li.veryImportantShow {
+    font-size: 21px;
+    line-height: 29px;
+    padding-top: 50px;
+}
+
+.showsList li.veryImportantShow .showMoreInfo {
+    font-size: 18px!important;
+}
+
+.showTimeLocation {
+	margin: 0;
+	padding: 0;
+}
+.showMoreInfo {
+	font-size: 12px;
+}
+
+/* end of shows */
+
+/* discography */
+
+#discography {
+	background: #000000;
+	clear: both;
+	color: #000000;
+	float: left;
+	font-size: 1px;
+	line-height: 1px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.storePlacer {
+    height: 0;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 0;
+}
+
+.store {
+    width: 170px;
+    padding: 0 0 0 60px;
+    position: absolute;
+}
+
+.storeNav {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.storeNav span {
+    padding-right: 20px;
+}
+
+.storeNav a {
+    /*color: #000000;*/
+}
+
+#storeDownloads {
+    margin-top: 30px;
+}
+
+#storeDownloads .attention {
+    font-size: 15px;
+}
+
+#storeCDs {
+    margin-top: 30px;
+}
+
+.store .addToCart {
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+
+.addToCart form {
+    margin: 0;
+    padding: 0;
+}
+
+#colorblind,
+#egoist,
+#egoistLE,
+#debut {
+    margin: 0 auto;
+    padding: 0 10px 0 0;
+    /*width: 670px;*/
+}
+
+.store ul {
+    list-style-type: none;
+    margin:  5px 0 0 0;
+    padding: 0px;
+}
+
+.store li {
+    margin: 0 0 25px 0;
+    padding: 0px;
+}
+
+.store .icon {
+}
+
+.store .icon img {
+    height: 50px;
+    width: 50px;
+}
+
+.albumDetailsWrapper {
+    float: left;
+    /*width: 50%;*/
+}
+
+#egoistLE .albumDetailsWrapper {
+    clear: both;
+    width: 100%;
+}
+
+.albumCover img {
+    border: solid 1px #000000;
+}
+
+#egoistLE .albumCover {
+    float: left;
+}
+
+ul.albumTrackList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#debut ul.albumTrackList {
+    margin-top: 5px;
+}
+
+.egoistLEDescription {
+    float: left;
+    width: 430px;
+    padding: 0 0 0 20px;
+}
+
+.albumTrackList li.separator {
+    margin: 5px 0 0 0;
+    font-weight: bold;
+    padding: 0;
+}
+
+.albumTrackList li a {
+    color: #000000;
+}
+
+.albumCredits {
+    margin: 20px 0 0 0;
+}
+
+.songLyricsWrapper {
+    float: left;
+    width: 48%;
+    padding: 0 0 0 2%;
+}
+
+.egoistLEImages {
+    clear: both;
+    float: left; 
+    margin: 40px 0 0 0;
+    width: 670px;
+}
+
+.egoistLEImages .imageWrapper {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.egoistLEImages img {
+    border: solid 1px #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.songTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+/* end of discography */
+
+/* about */
+
+#about {
+	background: #000000;
+	clear: both;
+	color: #000000;
+	float: left;
+	font-size: 1px;
+	line-height: 1px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#videos,
+#photos {
+    height: 500px;
+}
+
+#lineUp,
+#reviews {
+    height: 240px;
+}
+
+#photos ul {
+    list-style-type: none;
+    margin: 40px 0 0 0;
+    padding: 0;
+}
+
+.managerContact {
+    margin: 0;
+}
+
+.managerContact .header {
+    font-weight: bold;
+}
+
+/* end of about */
+
+/* network */
+
+#network {
+	background: #000000;
+	clear: both;
+	color: #000000;
+	float: left;
+	font-size: 1px;
+	line-height: 1px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.networkPage textarea {
+    height: 220px;
+    margin: 20px 0 0 0;
+    overflow: auto;
+    width: 670px;
+}
+
+ul.varonasWeb {
+    clear: both;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 40px 0;
+}
+
+ul.varonasWeb li {
+    float: left;
+    margin: 0;
+    padding: 0 15px 0 0;
+}
+
+ul.varonasWeb img {
+    height: 26px;
+}
+
+#spreadTheWord p {
+    clear: both;
+}
+
+/* end of network */
+
+/* links */
+
+#links {
+	background: #000000;
+	clear: both;
+	color: #000000;
+	float: left;
+	font-size: 1px;
+	line-height: 1px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.linksPage .music ul {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.linksPage .music li {
+    background: #ffffff;
+    float: left;
+    width: 200px;
+}
+
+/* end of links */
+
+/* toggling */
+
+.toggleLink {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.toggleLink.active {
+    cursor: default;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.toggleContent {
+    display: none;
+}
+
+.toggleContent.active {
+    display: block;
+}
+

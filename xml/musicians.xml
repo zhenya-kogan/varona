@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<musicians>
+	<musician>
+		<name>Zhenya Kogan</name>
+		<instument>vocals, guitar</instument>
+		<project>
+			<name>live</name>
+			<instrument>vocals, guitar</instrument>
+		</project>
+		<project>
+			<name>egoist</name>
+			<instrument>vocals, guitars</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>vocals, guitar</instrument>
+		</project>
+		<project>
+			<name>colorblind</name>
+			<instrument>guitars, effects, vocals/voices</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Keith Yates</name>
+		<project>
+			<name>live</name>
+			<instrument>saxophones, clarinet</instrument>
+		</project>
+		<project>
+			<name>egoist</name>
+			<instrument>saxophones, clarinet</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>saxophones, clarinet</instrument>
+		</project>
+		<project>
+			<name>colorblind</name>
+			<instrument>saxophones, clarinet, voices (6)</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Brandon Bradshaw</name>
+		<instrument>drums, percussion, samples</instrument>
+		<project>
+			<name>live</name>
+			<instrument>drums, percussion, samples</instrument>
+		</project>
+		<project>
+			<name>egoist</name>
+			<instrument>drums, percussion</instrument>
+		</project>
+		<project>
+			<name>colorblind</name>
+			<instrument>drums, percussion</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Elyse Weakley</name>
+		<instrument>keyboard</instrument>
+        <link>http://steelnhammers.com</link>
+		<project>
+			<name>live</name>
+			<instrument>keyboard</instrument>
+		</project>
+		<project>
+			<name>colorblind</name>
+			<instrument>keyboard, synthesizer</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Brian Rourke</name>
+		<instrument>upright bass, electric bass</instrument>
+        <link>http://brianrourke.com</link>
+		<project>
+			<name>live</name>
+			<instrument>upright bass, electric bass</instrument>
+		</project>
+		<project>
+			<name>colorblind</name>
+			<instrument>upright bass, electric bass</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Anya Povzner</name>
+		<project>
+			<name>past</name>
+			<instrument>keyboard</instrument>
+		</project>
+		<project>
+			<name>egoist</name>
+			<instrument>keyboard</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>keyboard</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Chris Lorentz</name>
+		<project>
+			<name>past</name>
+			<instrument>electric bass, upright bass</instrument>
+		</project>
+		<project>
+			<name>egoist</name>
+			<instrument>electric bass, upright bass</instrument>
+		</project>		
+	</musician>
+	<musician>
+		<name>Timur Kerimbekov</name>
+		<project>
+			<name>past</name>
+			<instrument>percussion, didgeridoo</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>percussion, back vocals (10)</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Andy Mills</name>
+		<project>
+			<name>past</name>
+			<instrument>bass, trombone</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>bass, trombone</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Amit Waisberg</name>
+		<project>
+			<name>past</name>
+			<instrument>lead guitar</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>lead guitar, mandolin</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Casey Bauer</name>
+		<project>
+			<name>past</name>
+			<instrument>violin</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>violin (except 02)</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Nancy Kuo</name>
+		<project>
+			<name>past</name>
+			<instrument>violin, cello</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>violin (02)</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Mike Kolovsky</name>
+		<project>
+			<name>past</name>
+			<instrument>tuba</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>tuba, mad screaming (01)</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Nadia Vasiliev</name>
+		<project>
+			<name>past</name>
+			<instrument>psaltery, recorder</instrument>
+		</project>
+		<project>
+			<name>debut</name>
+			<instrument>psaltery, recorder</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Max Abelev</name>
+        <link>http://umenden.com</link>
+		<project>
+			<name>colorblind</name>
+			<instrument>electronics</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Aaron Madsen</name>
+        <link>http://www.facebook.com/pages/Madhouse-Studios/89648448090</link>
+		<project>
+			<name>colorblind</name>
+			<instrument>lap steel guitar (7-12), electric guitar (6)</instrument>
+		</project>
+	</musician>
+	<musician>
+		<name>Mark Smith</name>
+        <link>http://en.wikipedia.org/wiki/Mark_Smith_(ice_hockey)</link>
+		<project>
+			<name>colorblind</name>
+			<instrument>didgeridoo (1-2)</instrument>
+		</project>
+	</musician>
+</musicians>

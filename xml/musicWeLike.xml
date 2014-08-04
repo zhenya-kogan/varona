@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<musicWeLike>
+    <musician>
+        <name>Portishead</name>
+        <link>http://www.portishead.co.uk</link>
+    </musician>
+    <musician>
+        <name>MMW</name>
+        <link>http://www.mmw.net</link>
+    </musician>
+    <musician>
+        <name>Manu Chao</name>
+        <link>http://www.manuchao.net</link>
+    </musician>
+    <musician>
+        <name>Beirut</name>
+        <link>http://www.beirutband.com</link>
+    </musician>
+    <musician>
+        <name>Gotan Project</name>
+        <link>http://www.gotanproject.com</link>
+    </musician>
+    <musician>
+        <name>Beck</name>
+        <link>http://www.beck.com</link>
+    </musician>
+    <musician>
+        <name>Devotchka</name>
+        <link>http://www.devotchka.net</link>
+    </musician>
+    <musician>
+        <name>Gogol Bordello</name>
+        <link>http://www.gogolbordello.com</link>
+    </musician>
+    <musician>
+        <name>Marc Ribot</name>
+        <link>http://www.marcribot.com</link>
+    </musician>
+    <musician>
+        <name>Wilco</name>
+        <link>http://www.wilcoworld.net</link>
+    </musician>
+    <musician>
+        <name>Pink Floyd</name>
+        <link>http://www.pinkfloyd.com</link>
+    </musician>
+    <musician>
+        <name>Tom Waits</name>
+        <link>http://www.tomwaits.com</link>
+    </musician>
+    <musician>
+        <name>Yma Sumac</name>
+        <link>http://www.ymasumac.com</link>
+    </musician>
+    <musician>
+        <name>The Mars Volta</name>
+        <link>http://www.marsvolta.com</link>
+    </musician>
+    <musician>
+        <name>Bjork</name>
+        <link>http://www.bjork.com</link>
+    </musician>
+    <musician>
+        <name>Messer Fur Frau Mueller</name>
+        <link>http://www.myspace.com/messerfurfraumuller</link>
+    </musician>
+    <musician>
+        <name>Jason Webley</name>
+        <link>http://www.jasonwebley.com</link>
+    </musician>
+    <musician>
+        <name>Kultur Shock</name>
+        <link>http://www.kulturshock.com</link>
+    </musician>
+    <musician>
+        <name>Johnny Cash</name>
+        <link>http://www.johnnycash.com</link>
+    </musician>
+    <musician>
+        <name>John Zorn</name>
+        <link>http://www.tzadik.com</link>
+    </musician>
+    <musician>
+        <name>Miles Davis</name>
+        <link>http://www.milesdavis.com</link>
+    </musician>
+    <musician>
+        <name>Fugazi</name>
+        <link>http://www.dischord.com/band/fugazi</link>
+    </musician>
+    <musician>
+        <name>The Roots</name>
+        <link>http://www.theroots.com</link>
+    </musician>
+    <musician>
+        <name>John Coltrane</name>
+        <link>http://www.johncoltrane.com</link>
+    </musician>
+    <musician>
+        <name>Sonny Rollins</name>
+        <link>http://www.sonnyrollins.com</link>
+    </musician>
+    <musician>
+        <name>James Brown</name>
+        <link>http://www.funky-stuff.com/jamesbrown</link>
+    </musician>
+    <musician>
+        <name>The Meters</name>
+        <link>http://www.themetersonline.com</link>
+    </musician>
+    <musician>
+        <name>The Funk Brothers</name>
+        <link>http://en.wikipedia.org/wiki/The_Funk_Brothers</link>
+    </musician>
+    <musician>
+        <name>Fiona Apple</name>
+        <link>http://www.fiona-apple.com</link>
+    </musician>
+    <musician>
+        <name>Radiohead</name>
+        <link>http://www.radiohead.com</link>
+    </musician>
+    <musician>
+        <name>Talib Kweli</name>
+        <link>http://www.talibkweli.com</link>
+    </musician>
+    <musician>
+        <name>Mos Def</name>
+        <link>http://www.myspace.com/mosdef</link>
+    </musician>
+    <musician>
+        <name>Jurassic 5</name>
+        <link>http://www.jurassic5.com</link>
+    </musician>
+    <musician>
+        <name>D.J. Shadow</name>
+        <link>http://www.djshadow.com</link>
+    </musician>
+    <musician>
+        <name>David Bowie</name>
+        <link>http://www.davidbowie.com</link>
+    </musician>
+    <musician>
+        <name>The Stranglers</name>
+        <link>http://www.stranglers.net</link>
+    </musician>
+    <musician>
+        <name>Q and Not U</name>
+        <link>http://www.myspace.com/qandnotu</link>
+    </musician>
+    <musician>
+        <name>Auktyon</name>
+        <link>http://www.auktyon.com</link>
+    </musician>
+    <musician>
+        <name>The White Octave</name>
+        <link>http://www.myspace.com/whiteoctave</link>
+    </musician>
+    <musician>
+        <name>Helmet</name>
+        <link>http://www.helmetmusic.com</link>
+    </musician>
+    <musician>
+        <name>Queen</name>
+        <link>http://www.queenonline.com</link>
+    </musician>
+    <musician>
+        <name>Faith No More</name>
+        <link>http://www.fnm.com</link>
+    </musician>
+    <musician>
+        <name>Outkast</name>
+        <link>http://www.outkast.com</link>
+    </musician>
+    <musician>
+        <name>The Pixies</name>
+        <link>http://www.myspace.com/pixies</link>
+    </musician>
+    <musician>
+        <name>Soul Coughing</name>
+        <link>http://www.myspace.com/soulcoughing</link>
+    </musician>
+    <musician>
+        <name>Arcade Fire</name>
+        <link>http://www.arcadefire.com</link>
+    </musician>
+    <musician>
+        <name>The Beatles</name>
+        <link>http://www.thebeatles.com</link>
+    </musician>
+    <musician>
+        <name>Dinosaur Jr.</name>
+        <link>http://www.dinosaurjr.com</link>
+    </musician>
+    <musician>
+        <name>Blackalicious</name>
+        <link>http://www.blackalicious.com</link>
+    </musician>
+    <musician>
+        <name>The Zutons</name>
+        <link>http://www.thezutons.com</link>
+    </musician>
+    <musician>
+        <name>Ben Harper</name>
+        <link>http://www.benharper.com</link>
+    </musician>
+    <musician>
+        <name>The Shins</name>
+        <link>http://www.theshins.com</link>
+    </musician>
+    <musician>
+        <name>Jeff Buckley</name>
+        <link>http://www.jeffbuckley.com</link>
+    </musician>
+    <musician>
+        <name>The Clash</name>
+        <link>http://www.theclash.com</link>
+    </musician>
+    <musician>
+        <name>Lauryn Hill</name>
+        <link>http://www.lauryn-hill.com</link>
+    </musician>
+    <musician>
+        <name>Led Zeppelin</name>
+        <link>http://www.ledzeppelin.com</link>
+    </musician>
+    <musician>
+        <name>Morphine</name>
+        <link>http://www.lukin.com/tos/</link>
+    </musician>
+    <musician>
+        <name>The Police</name>
+        <link>http://www.thepolice.com</link>
+    </musician>
+    <musician>
+        <name>Isley Bros.</name>
+        <link>http://www.myspace.com/isleybrothers</link>
+    </musician>
+    <musician>
+        <name>The Walkmen</name>
+        <link>http://www.marcata.net/walkmen</link>
+    </musician>
+    <musician>
+        <name>Neutral Milk Hotel</name>
+        <link>http://www.neutralmilkhotel.com</link>
+    </musician>
+    <musician>
+        <name>Peter Tosh</name>
+        <link>http://www.myspace.com/petertoshspace</link>
+    </musician>
+    <musician>
+        <name>Bob Marley</name>
+        <link>http://www.bobmarley.com</link>
+    </musician>
+    <musician>
+        <name>Burning Spear</name>
+        <link>http://www.burningspear.net</link>
+    </musician>
+    <musician>
+        <name>Steel Pulse</name>
+        <link>http://www.steelpulse.com</link>
+    </musician>
+    <musician>
+        <name>Toot &amp; the Maytals</name>
+        <link>http://www.tootandthemaytals.com</link>
+    </musician>
+    <musician>
+        <name>Primus</name>
+        <link>http://www.primusville.com</link>
+    </musician>
+    <musician>
+        <name>The Bad Plus</name>
+        <link>http://www.thebadplus.com</link>
+    </musician>
+    <musician>
+        <name>The Long Winters</name>
+        <link>http://www.thelongwinters.com</link>
+    </musician>
+    <musician>
+        <name>Death Cab for Cutie</name>
+        <link>http://www.deathcabforcutie.com</link>
+    </musician>
+    <musician>
+        <name>The Turtles</name>
+        <link>http://www.floandeddie.com</link>
+    </musician>
+    <musician>
+        <name>Tomahawk</name>
+        <link>http://www.tomahawkband.com</link>
+    </musician>
+    <musician>
+        <name>Nick Cave</name>
+        <link>http://www.nickcaveandthebadseeds.com</link>
+    </musician>
+    <musician>
+        <name>Dead Can Dance</name>
+        <link>http://www.deadcandance.com</link>
+    </musician>
+    <musician>
+        <name>Can</name>
+        <link>http://www.spoonrecords.com</link>
+    </musician>
+    <musician>
+        <name>Pharoah Sanders</name>
+        <link>http://www.pharoahsanders.net</link>
+    </musician>
+    <musician>
+        <name>Ornette Coleman</name>
+        <link>http://www.ornettecoleman.com</link>
+    </musician>
+    <musician>
+        <name>Steve Reich</name>
+        <link>http://www.stevereich.com</link>
+    </musician>
+    <musician>
+        <name>Mozart</name>
+        <link>http://en.wikipedia.org/wiki/mozart</link>
+    </musician>
+    <musician>
+        <name>Soft Machine</name>
+        <link>http://calyx.club.fr/softmachine/index.html</link>
+    </musician>
+    <musician>
+        <name>Elton Dean</name>
+        <link>http://www.eltondean.com</link>
+    </musician>
+    <musician>
+        <name>Frank Lowe</name>
+        <link>http://www.myspace.com/franklowe</link>
+    </musician>
+    <musician>
+        <name>Betty Carter</name>
+        <link>http://www.bettycarter.org</link>
+    </musician>
+    <musician>
+        <name>Krysztof Penderecki</name>
+        <link>http://www.myspace.com/penderecki</link>
+    </musician>
+    <musician>
+        <name>Henry Threadgill</name>
+        <link>http://en.wikipedia.org/wiki/Henry_Threadgill</link>
+    </musician>
+    <musician>
+        <name>Gil Evans</name>
+        <link>http://gilevans.free.fr</link>
+    </musician>
+    <musician>
+        <name>Roscoe Mitchell</name>
+        <link>http://en.wikipedia.org/wiki/Roscoe_Mitchell</link>
+    </musician>
+    <musician>
+        <name>Abida Parveen</name>
+        <link>http://en.wikipedia.org/wiki/Abida_Parveen</link>
+    </musician>
+    <musician>
+        <name>Frank Zappa</name>
+        <link>http://www.zappa.com</link>
+    </musician>
+    <musician>
+        <name>Sun Ra</name>
+        <link>http://www.elrarecords.com</link>
+    </musician>
+    <musician>
+        <name>Don Byron</name>
+        <link>http://www.donbyron.com</link>
+    </musician>
+    <musician>
+        <name>Mal Waldron</name>
+        <link>http://en.wikipedia.org/wiki/Mal_Waldron</link>
+    </musician>
+    <musician>
+        <name>Steve Lacy</name>
+        <link>http://senators.free.fr</link>
+    </musician>
+    <musician>
+        <name>Gil Scott Heron</name>
+        <link>http://www.gilscottheron.com/GILINTRO.htm</link>
+    </musician>
+    <musician>
+        <name>Stephen Still's 1st</name>
+        <link>http://www.stephenstills.com</link>
+    </musician>
+    <musician>
+        <name>Curtis Mayfield</name>
+        <link>http://en.wikipedia.org/wiki/Curtis_Mayfield</link>
+    </musician>
+    <musician>
+        <name>Eric Dolphy</name>
+        <link>http://en.wikipedia.org/wiki/Eric_Dolphy</link>
+    </musician>
+    <musician>
+        <name>Cornership</name>
+        <link>http://www.cornershop.com</link>
+    </musician>
+    <musician>
+        <name>AEOC</name>
+        <link>http://www.myspace.com/artensembleofchicago</link>
+    </musician>
+    <musician>
+        <name>Rahsaan Roland Kirk</name>
+        <link>http://en.wikipedia.org/wiki/Rahsaan_Roland_Kirk</link>
+    </musician>
+    <musician>
+        <name>Don Cherry</name>
+        <link>http://en.wikipedia.org/wiki/Don_Cherry_(jazz)</link>
+    </musician>
+    <musician>
+        <name>Jon Corbett</name>
+        <link>http://www.johncorbettband.com</link>
+    </musician>
+    <musician>
+        <name>Percy Sledge</name>
+        <link>http://www.psledge.com</link>
+    </musician>
+    <musician>
+        <name>King Crimson</name>
+        <link>http://www.dgmlive.com</link>
+    </musician>
+    <musician>
+        <name>Little Feat</name>
+        <link>http://www.littlefeat.net</link>
+    </musician>
+    <musician>
+        <name>Steve Coleman</name>
+        <link>http://www.m-base.com</link>
+    </musician>
+    <musician>
+        <name>Carla Bley</name>
+        <link>http://www.wattxtrawatt.com</link>
+    </musician>
+    <musician>
+        <name>Nina Simone</name>
+        <link>http://www.ninasimone.com</link>
+    </musician>
+    <musician>
+        <name>Brazilian Girls</name>
+        <link>http://www.braziliangirls.info</link>
+    </musician>
+    <musician>
+        <name>Pretenders</name>
+        <link>http://www.thepretenders.com</link>
+    </musician>
+    <musician>
+        <name>D'Angelo</name>
+        <link>http://www.dangeloonline.com</link>
+    </musician>
+    <musician>
+        <name>Secret Chiefs 3</name>
+        <link>http://www.secretchiefs3.net</link>
+    </musician>
+    <musician>
+        <name>Murder By Death</name>
+        <link>http://www.murderbydeath.com</link>
+    </musician>
+    <musician>
+        <name>Cursive</name>
+        <link>http://www.cursivearmy.com</link>
+    </musician>
+    <musician>
+        <name>Old 97s</name>
+        <link>http://www.old97s.com</link>
+    </musician>
+    <musician>
+        <name>Tom McRae</name>
+        <link>http://www.tommcrae.com</link>
+    </musician>
+    <musician>
+        <name>The National</name>
+        <link>http://www.americanmary.com</link>
+    </musician>
+    <musician>
+        <name>Archive</name>
+        <link>http://archiveofficial.com</link>
+    </musician>
+    <musician>
+        <name>The Necks</name>
+        <link>http://thenecks.com</link>
+    </musician>
+    <musician>
+        <name>Grinderman</name>
+        <link>http://grinderman.com</link>
+    </musician>
+    <musician>
+        <name>The Raconteurs</name>
+        <link>http://theracounteurs.com</link>
+    </musician>
+    <musician>
+        <name>White Stripes</name>
+        <link>http://whitestripes.com</link>
+    </musician>
+    <musician>
+        <name>Calexico</name>
+        <link>http://casadecalexico.com</link>
+    </musician>
+    <musician>
+        <name>Gojogo</name>
+        <link>http://gojogo.com</link>
+    </musician>
+    <musician>
+        <name>Full Moon Partisans</name>
+        <link>http://fullmoonpartisans.com</link>
+    </musician>
+    <musician>
+        <name>Red Hot Chili Peppers</name>
+        <link>http://redhotchilipeppers.com</link>
+    </musician>
+    <musician>
+        <name>Bar Kokhba</name>
+        <link>http://last.fm/music/Bar+Kokhba</link>
+    </musician>
+    <musician>
+        <name>Masada</name>
+        <link>http://last.fm/music/Masada</link>
+    </musician>
+    <musician>
+        <name>Electric Masada</name>
+        <link>http://last.fm/music/Electric+Masada</link>
+    </musician>
+    <musician>
+        <name>Painkiller</name>
+        <link>http://last.fm/music/Painkiller</link>
+    </musician>
+    <musician>
+        <name>Leonard Cohen</name>
+        <link>http://leonardcohen.com</link>
+    </musician>
+    <musician>
+        <name>Tequilajazzz</name>
+        <link>http://tequilajazzz.com</link>
+    </musician>
+    <musician>
+        <name>The Cinematic Orchestra</name>
+        <link>http://cinematicorchestra.com</link>
+    </musician>
+    <musician>
+        <name>Contemporary Noise Quartet</name>
+        <link>http://last.fm/music/Contemporary+Noise+Quartet</link>
+    </musician>
+    <musician>
+        <name>Umenden</name>
+        <link>http://last.fm/music/Umenden</link>
+    </musician>
+    <musician>
+        <name>Lucien Dubuis Trio</name>
+        <link>http://luciendubuis.ch</link>
+    </musician>
+</musicWeLike>

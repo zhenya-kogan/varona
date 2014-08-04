@@ -1,0 +1,120 @@
+body, div, ul, li, a, span, img
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: helvetica, "helvetica neue", serif;
+    font-size: 14px;
+    line-height: 1.4em;
+    padding: 60px 50px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.noWrap
+{
+    white-space: nowrap;
+}
+
+.downloadFile
+{
+    font-size: 10px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.mainHdr
+{
+    line-height: 1.4em;
+    width: 100%;
+    max-width: 800px;
+    /*min-width: 550px;*/
+}
+
+.mainHdr .name
+{
+    font-size: 28px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.mainHdr .separator,
+.job .header .separator
+{
+    padding: 0 8px 0;
+}
+
+.separator:before,
+.separator:after {
+    content: ' ';
+}
+
+.section
+{
+    margin: 30px 0 0;
+    width: 100%;
+    max-width: 800px;
+    /*min-width: 550px;*/
+}
+
+* html .mainHdr,
+* html .section
+{
+    width: 800px;
+}
+
+.section .header
+{
+    font-style: italic;
+    line-height: 1.4em;
+}
+
+.section .header .employer,
+.section .header .role,
+.section .header .dates
+{
+    white-space: nowrap;
+}
+
+.section .content,
+.job .tasks
+{
+    padding: 5px 0 0 20px;
+}
+
+.job.contractor .contracts
+{
+    padding: 0 0 0 20px;
+}
+
+.job ul.projects
+{
+    padding: 5px 0 0 20px;
+}
+
+.job
+{
+    margin: 30px 0 0;
+}
+
+.job.first
+{
+    margin: 10px 0 0;
+}
+
+.job .header
+{
+    font-size: 16px;
+    font-style: normal;
+}
+
+.contracts .header
+{
+    padding: 5px 0 0;

@@ -1,0 +1,9 @@
+{
+    "shows": [{
+        "date": "12/12/12",
+        "venue": "The Fillmore"
+    }, {
+        "date": "13/13/13",
+        "venue": "El Rio"
+    }]
+}

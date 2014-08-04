@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<albums>
+    <album>
+        <albumTitle>Varona</albumTitle>
+        <year>2007</year>
+        <additionalInfo>
+            Lyrics:<br/>Zhenya Kogan<br/><br/>
+            Recorded, mixed and mastered by <br/>Aaron Madsen at <a href="http://www.facebook.com/pages/Madhouse-Studios/89648448090" target="_blank">Madhouse Studios</a><br/><br/>
+            Visual art and design by <br/><a href="http://stef.zenfolio.com" target="_blank">Stefan Patashvili</a>
+        </additionalInfo>
+        <songs>
+            <song>
+                <title>Set on Fire</title>
+                <camelCase>setOnFire</camelCase>
+                <trackNumber>01</trackNumber>
+                <lyrics>
+                    <line>I will stay with you inside</line>
+                    <line>We will make it through the night</line>
+                    <line>We will set this place on fire</line>
+                    <line>&#160;</line>
+                    <line>In the streets and underground</line>
+                    <line>I will follow you around</line>
+                    <line>We will set this place on fire</line>
+                    <line>&#160;</line>
+                    <line>No one's here and no one's there</line>
+                    <line>In the moment of despair</line>
+                    <line>We will set this place on fire</line>
+                    <line>&#160;</line>
+                    <line>Every now and every then</line>
+                    <line>You're a woman, I'm a man</line>
+                    <line>We will set this place on fire</line>
+                    <line>&#160;</line>
+                    <line>You may knock on wood, you may suck on steel</line>
+                    <line>You don't have to tell me how you feel</line>
+                    <line>When you set this place on fire</line>
+                    <line>&#160;</line>
+                    <line>To the left and to the right</line>
+                    <line>Of what is left and what is right</line>
+                    <line>You will see what causes fire</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Ot togo chto lyubila</title>
+                <camelCase>otTogoChtoLyubila</camelCase>
+                <trackNumber>02</trackNumber>
+                <lyrics>
+                    <line>От того что любила</line>
+                    <line>От того и искала</line>
+                    <line>От того что хотела</line>
+                    <line>От того и летала</line>
+                    <line>&#160;</line>
+                    <line>От того, что любила,</line>
+                    <line>От того и бежала.</line>
+                    <line>Неподумав пригубила,</line>
+                    <line>Неумело завязала.</line>
+                    <line>&#160;</line>
+                    <line>Ночью было страшно,</line>
+                    <line>Ночью дрожала.</line>
+                    <line>Днем было скучно,</line>
+                    <line>Днем умирала.</line>
+                    <line>&#160;</line>
+                    <line>От того что любила,</line>
+                    <line>От того и бежала.</line>
+                    <line>Неподумав пригубила,</line>
+                    <line>Неумело завязала.</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Never Get to Talk</title>
+                <camelCase>neverGetToTalk07</camelCase>
+                <trackNumber>03</trackNumber>
+                <lyrics>
+                    <line>I know a girl, I know her well</line>
+                    <line>I like the smell, I like the spell</line>
+                    <line>But we never really </line>
+                    <line>Had a chance to talk</line>
+                    <line>&#160;</line>
+                    <line>I know a man, he's like a friend</line>
+                    <line>He wears the brand, he is the brand</line>
+                    <line>But we never really </line>
+                    <line>Had a chance to talk</line>
+                    <line>&#160;</line>
+                    <line>I know a god, he's just a god</line>
+                    <line>He likes to play, he risks a lot</line>
+                    <line>But we never really </line>
+                    <line>Had a chance to talk</line>
+                    <line>&#160;</line>
+                    <line>There is a place, a weird maze</line>
+                    <line>That knows the face, key to my case</line>
+                    <line>But we never really </line>
+                    <line>Had a chance to talk</line>
+                    <line>&#160;</line>
+                    <line>I have a dream, sweet sweet dream</line>
+                    <line>Like Rocky Road ice cream</line>
+                    <line>That they all never ever </line>
+                    <line>Get a chance to talk</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Pereplela</title>
+                <camelCase>pereplela</camelCase>
+                <trackNumber>04</trackNumber>
+                <lyrics>
+                    <line>Переплыла с севера,</line>
+                    <line>Ходила по клеверу,</line>
+                    <line>Переплела берега,</line>
+                    <line>Переплела берега</line>
+                    <line>В веера</line>
+                    <line>&#160;</line>
+                    <line>Ждала до зимы,</line>
+                    <line>Пересчитала до семи,</line>
+                    <line>Перевела времена,</line>
+                    <line>Перевела времена</line>
+                    <line>Никуда</line>
+                    <line>&#160;</line>
+                    <line>Бродила по рядам,</line>
+                    <line>Искала номера,</line>
+                    <line>Когда узнала, кто она,</line>
+                    <line>Когда узнала, кто она</line>
+                    <line>Сошла с ума</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Prelude to You</title>
+                <camelCase>preludeToYou</camelCase>
+                <trackNumber>05</trackNumber>
+                <lyrics>
+                    <line>After the rain</line>
+                    <line>Under the train</line>
+                    <line>Will I know you</line>
+                    <line>Will I know you</line>
+                    <line>&#160;</line>
+                    <line>Will I stay calm</line>
+                    <line>Will I play dumb</line>
+                    <line>In the flames</line>
+                    <line>In the pores on your face</line>
+                    <line>&#160;</line>
+                    <line>On the tip of your tounge</line>
+                    <line>Through the hole in your lung</line>
+                    <line>Will I know you</line>
+                    <line>Will I know you</line>
+                    <line>&#160;</line>
+                    <line>Will I come to an end</line>
+                    <line>Will I come to an end</line>
+                    <line>Will the world understand</line>
+                    <line>Will it come to an end</line>
+                    <line>&#160;</line>
+                    <line>Will I know you</line>
+                    <line>When it comes to an end</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Fragile and Numb</title>
+                <camelCase>fragileAndNumb</camelCase>
+                <trackNumber>06</trackNumber>
+                <lyrics>
+                    <line>Fragile and numb</line>
+                    <line>In a paper crown</line>
+                    <line>Strech out your arms and spin</line>
+                    <line>&#160;</line>
+                    <line>Sweet, unarmed</line>
+                    <line>Take a vow </line>
+                    <line>Form a smile and spin</line>
+                    <line>&#160;</line>
+                    <line>Open your mouth</line>
+                    <line>Nothing comes out</line>
+                    <line>Spit out your tongue and spin</line>
+                    <line>&#160;</line>
+                    <line>Bite off your thumbs</line>
+                    <line>Evolution is down</line>
+                    <line>Throw out your arms and spin</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Varona Lullaby</title>
+                <camelCase>varonaLullaby</camelCase>
+                <trackNumber>07</trackNumber>
+                <lyrics>
+                    <line>Ходит, не находит,</line>
+                    <line>Ляжет на весы.</line>
+                    <line>Тихо он уходит,</line>
+                    <line>Глухо бьют часы.</line>
+                    <line>&#160;</line>
+                    <line>Ветер по дороге</line>
+                    <line>Подметает сны,</line>
+                    <line>Мысли о погоде</line>
+                    <line>Разведут мосты.</line>
+                    <line>&#160;</line>
+                    <line>Ляжет на рассвете</line>
+                    <line>В степи, в степи.</line>
+                    <line>Словят на столетье</line>
+                    <line>Сети... сети...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Be My High</title>
+                <camelCase>beMyHigh07</camelCase>
+                <trackNumber>08</trackNumber>
+                <lyrics>
+                    <line>In just a bit of a while I’ll get a little high</line>
+                    <line>A little soft, a little dry</line>
+                    <line>&#160;</line>
+                    <line>Babe, bah-bye, I’ll get a little high</line>
+                    <line>And after awhile – a little higher</line>
+                    <line>&#160;</line>
+                    <line>My oh my, oh tell me why</line>
+                    <line>My oh my, oh tell me why</line>
+                    <line>My oh my...</line>
+                    <line>&#160;</line>
+                    <line>Take your time, take mine</line>
+                    <line>Be my high, be mine</line>
+                    <line>&#160;</line>
+                    <line>My oh my, oh tell me why</line>
+                    <line>My oh my, oh tell me why</line>
+                    <line>My oh my, oh tell me why</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Never End</title>
+                <camelCase>neverEnd</camelCase>
+                <trackNumber>09</trackNumber>
+                <lyrics>
+                    <line>A boy without a father</line>
+                    <line>A place without a name</line>
+                    <line>I'm sorry I want another</line>
+                    <line>Don't cry while I'm away</line>
+                    <line>&#160;</line>
+                    <line>I'll be there when you need me</line>
+                    <line>I'll come whenever you call</line>
+                    <line>But now you must forgive me</line>
+                    <line>I've met a pretty girl</line>
+                    <line>&#160;</line>
+                    <line>I want you to be happy</line>
+                    <line>I want you to be free</line>
+                    <line>One day you will forget me</line>
+                    <line>One day the wound will heal</line>
+                    <line>&#160;</line>
+                    <line>And now if you will let me</line>
+                    <line>I'll find a sunny place to live</line>
+                    <line>A decade of sweetest memories</line>
+                    <line>Is not worth suffering for another year</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Drone</title>
+                <camelCase>drone</camelCase>
+                <trackNumber>10</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Cranes</title>
+                <camelCase>cranes</camelCase>
+                <trackNumber>11</trackNumber>
+                <lyrics>
+                    <line>The day they saw the cranes</line>
+                    <line>Fly under the rain</line>
+                    <line>They left their homes</line>
+                    <line>They went insane</line>
+                    <line>They danced away</line>
+                    <line>&#160;</line>
+                    <line>Thousand smiles </line>
+                    <line>Thousand lies</line>
+                    <line>Two lives</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Hole in the Wall</title>
+                <camelCase>holeInTheWall07</camelCase>
+                <trackNumber>12</trackNumber>
+                <lyrics>
+                    <line>Give me... Give me...</line>
+                    <line>Give me a reason, reason to breathe on</line>
+                    <line>&#160;</line>
+                    <line>Show me... Show me...</line>
+                    <line>Show me a trace, a trace to erase off my face</line>
+                    <line>&#160;</line>
+                    <line>Is there a hole in my wall?</line>
+                    <line>Is there a flaw in my soul?</line>
+                    <line>&#160;</line>
+                    <line>Crawl... crawl...</line>
+                    <line>Under the floor... under the floor...</line>
+                    <line>Try to explore a little more of the other side</line>
+                    <line>&#160;</line>
+                    <line>Roll... roll...</line>
+                    <line>Into a ball... into a ball...</line>
+                    <line>Fly, fly high in the sky</line>
+                    <line>&#160;</line>
+                    <line>Is there a hole in my wall?</line>
+                    <line>Is there a flaw in my soul?</line>
+                </lyrics>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <albumTitle>Egoist</albumTitle>
+        <year>2009</year>
+        <additionalInfo>
+            Lyrics:<br/>
+            Zhenya Kogan (1-5,8,10-12)<br/>
+            Keith Yates (6,7)<br/>
+            All (9)<br/><br/>
+            Recorded by students at<br/><a href="http://www.expression.edu" target="_blank">Ex'pression College of Digital Arts</a><br/><br/>
+            Mixed and mastered by<br/>Aaron Madsen at <a href="http://www.facebook.com/pages/Madhouse-Studios/89648448090" target="_blank">Madhouse Studios</a><br/><br/>
+            Artwork, design and printing by<br/><a href="http://vladimirzimakov.com" target="_blank">Vladimir Zimakov</a>
+        </additionalInfo>
+        <songs>
+            <song>
+                <title>part 1</title>
+            </song>
+            <song>
+                <title>Rain</title>
+                <camelCase>rain</camelCase>
+                <trackNumber>01</trackNumber>
+                <lyrics>
+                    <line>I am the rain, the rain that pours all day</line>
+                    <line>To me walls, faces, and the streets are all the same</line>
+                    <line>No matter how clean, I wash it all away</line>
+                    <line>&#160;</line>
+                    <line>I am a stone, a stone that stays the same</line>
+                    <line>And even if I had a brain, I couldn’t move away</line>
+                    <line>And even if I was to move, I’d still be gray</line>
+                    <line>&#160;</line>
+                    <line>I am a rainbow, pretty and gay</line>
+                    <line>But I’m not stable, can’t last one day</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Hole in the Wall</title>
+                <camelCase>holeInTheWall09</camelCase>
+                <trackNumber>02</trackNumber>
+                <lyrics>
+                    <line>Give me... Give me...</line>
+                    <line>Give me a reason, reason to breathe on</line>
+                    <line>&#160;</line>
+                    <line>Show me... Show me...</line>
+                    <line>Show me a trace, a trace to erase off my face</line>
+                    <line>&#160;</line>
+                    <line>Is there a hole in my wall?</line>
+                    <line>Is there a flaw in my soul?</line>
+                    <line>&#160;</line>
+                    <line>Crawl... crawl...</line>
+                    <line>Under the floor... under the floor...</line>
+                    <line>Try to explore a little more of the other side</line>
+                    <line>&#160;</line>
+                    <line>Roll... roll...</line>
+                    <line>Into a ball... into a ball...</line>
+                    <line>Fly, fly high in the sky</line>
+                    <line>&#160;</line>
+                    <line>Is there a hole in my wall?</line>
+                    <line>Is there a flaw in my soul?</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Shadow</title>
+                <camelCase>shadow</camelCase>
+                <trackNumber>03</trackNumber>
+                <lyrics>
+                    <line>Birds and fish, caught in the rain</line>
+                    <line>What an absurd mistake, what a terrible shame</line>
+                    <line>Absurd mistakes heal a broccoli brain</line>
+                    <line>Giving a second chance, braking the chain</line>
+                    <line>&#160;</line>
+                    <line>And you know it, you got it, you feel it, it is in your veins</line>
+                    <line>You can smell it, taste it, but don’t remember its name</line>
+                    <line>&#160;</line>
+                    <line>Put your arms around, put your legs around, be my shadow</line>
+                    <line>Wrap your mind around, wrap your lips around, be my shadow</line>
+                    <line>&#160;</line>
+                    <line>Birds and fish, caught in the rain</line>
+                    <line>What an absurd mistake, what a terrible shame</line>
+                    <line>Absurd mistakes heal a broccoli brain</line>
+                    <line>Giving a second chance, braking the chain</line>
+                    <line>&#160;</line>
+                    <line>Put your arms around, put your legs around, be my shadow</line>
+                    <line>Wrap your mind around, wrap your lips around, be my shadow</line>
+                    <line>&#160;</line>
+                    <line>Put your arms around, put your legs around, be my shadow</line>
+                    <line>Wrap your mind around, wrap your lips around, be my shadow</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Be My High</title>
+                <camelCase>beMyHigh09</camelCase>
+                <trackNumber>04</trackNumber>
+                <lyrics>
+                    <line>In just a bit of a while I’ll get a little high</line>
+                    <line>A little soft, a little dry</line>
+                    <line>&#160;</line>
+                    <line>Babe, bah-bye, I’ll get a little high</line>
+                    <line>And after awhile – a little higher</line>
+                    <line>&#160;</line>
+                    <line>My oh my, oh tell me why</line>
+                    <line>My oh my, oh tell me why</line>
+                    <line>My oh my...</line>
+                    <line>&#160;</line>
+                    <line>Take your time, take mine</line>
+                    <line>Be my high, be mine</line>
+                    <line>&#160;</line>
+                    <line>My oh my, oh tell me why</line>
+                    <line>My oh my, oh tell me why</line>
+                    <line>My oh my, oh tell me why</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Never Get to Talk</title>
+                <camelCase>neverGetToTalk09</camelCase>
+                <trackNumber>05</trackNumber>
+                <lyrics>
+                    <line>I know a girl. I know her well</line>
+                    <line>I like the spell. I like the smell</line>
+                    <line>But we never had a chance to talk</line>
+                    <line>&#160;</line>
+                    <line>I know a man. He’s like a friend</line>
+                    <line>He wears the brand. He is the brand</line>
+                    <line>But we never had  a chance to talk</line>
+                    <line>&#160;</line>
+                    <line>There is a place, a weird maze</line>
+                    <line>That knows the face, key to my case</line>
+                    <line>&#160;</line>
+                    <line>I know a god. He’s just a god</line>
+                    <line>He likes to play. He risks a lot</line>
+                    <line>But we never had a chance to talk</line>
+                    <line>&#160;</line>
+                    <line>I have a dream, sweet dream</line>
+                    <line>Like rocky road I scream</line>
+                    <line>That they all never get a chance to talk</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Crawling</title>
+                <camelCase>crawling</camelCase>
+                <trackNumber>06</trackNumber>
+                <lyrics>
+                    <line>Crawling over rooftops</line>
+                    <line>Sliding down the walls</line>
+                    <line>Underneath the window </line>
+                    <line>Crawling down the hall</line>
+                    <line>&#160;</line>
+                    <line>Thought I heard you breathing</line>
+                    <line>Thought I caught your breath</line>
+                    <line>Your breast slightly rising</line>
+                    <line>Signs of past intent</line>
+                    <line>&#160;</line>
+                    <line>You rise like you’re floating</line>
+                    <line>You move across the room</line>
+                    <line>Hinting at the moment</line>
+                    <line>That comes to greet you now</line>
+                    <line>&#160;</line>
+                    <line>Thought I heard you breathing</line>
+                    <line>Thought I caught your breath</line>
+                    <line>Your breast slightly rising</line>
+                    <line>Signs of past intent</line>
+                    <line>&#160;</line>
+                    <line>Cradled, held, embraced</line>
+                    <line>Face, silent...</line>
+                    <line>Awaits a moment now at hand</line>
+                    <line>Like a worm intention...</line>
+                    <line>&#160;</line>
+                    <line>Intentions... intentions... intentions... intentions...</line>
+                    <line>&#160;</line>
+                    <line>A mist entangled Moon</line>
+                    <line>Sits easily around the phallus</line>
+                    <line>Lovers’ hearts hang hopeful</line>
+                    <line>On this dark and promising night!</line>
+                    <line>&#160;</line>
+                    <line>Intentions... intentions... intentions... intentions...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>part 2</title>
+            </song>
+            <song>
+                <title>Sarah</title>
+                <camelCase>sarah</camelCase>
+                <trackNumber>07</trackNumber>
+                <lyrics>
+                    <line>Floating cows, exploding throats</line>
+                    <line>Mother’s milk, rowing boats</line>
+                    <line>Stay by the river</line>
+                    <line>&#160;</line>
+                    <line>Exploding throats, floating lips</line>
+                    <line>Golden teeth, aluminum trees</line>
+                    <line>Stay by the river</line>
+                    <line>&#160;</line>
+                    <line>Did you hear that sound, Sarah?</line>
+                    <line>Did you hear that sound, Sarah?</line>
+                    <line>&#160;</line>
+                    <line>Dynasties, populations lost</line>
+                    <line>Amnesty, electric shock</line>
+                    <line>Stay by the river</line>
+                    <line>&#160;</line>
+                    <line>Did you hear that sound, Sarah?</line>
+                    <line>Did you hear that sound, Sarah?</line>
+                    <line>&#160;</line>
+                    <line>Sarah... Sarah... Sarah... Sarah...</line>
+                    <line>&#160;</line>
+                    <line>Children wandering, biting on a dream</line>
+                    <line>Big breasts, pink limousines</line>
+                    <line>Stay by the river</line>
+                    <line>&#160;</line>
+                    <line>Did you hear that sound, Sarah?</line>
+                    <line>Did you hear that sound, Sarah?</line>
+                    <line>&#160;</line>
+                    <line>Sarah... Sarah... Sarah... Sarah...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Zver</title>
+                <camelCase>zver</camelCase>
+                <trackNumber>08</trackNumber>
+                <lyrics>
+                    <line>Когда стучатся в дверь,</line>
+                    <line>Сначала верь, потом проверь кто там,</line>
+                    <line>А там возможно самый добрый зверь.</line>
+                    <line>&#160;</line>
+                    <line>Он одинок, но приволок с собой сто грам и две мадам &#8212;</line>
+                    <line>Все вам</line>
+                    <line>&#160;</line>
+                    <line>А девы дико голодны, они мечтают кто куды... айды...</line>
+                    <line>&#160;</line>
+                    <line>Промчалась ночь, промчалась прочь, и ты не прочь,</line>
+                    <line>Проверь кто там, а там...</line>
+                    <line>&#160;</line>
+                    <line>Когда стучаться в дверь,</line>
+                    <line>Сначала верь протом проверь кто там,</line>
+                    <line>А там возможно самый добрый зверь.</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>March 4</title>
+                <camelCase>march4</camelCase>
+                <trackNumber>09</trackNumber>
+                <lyrics>
+                    <line>Gargling grumbling frog</line>
+                    <line>Flitted furtively through the fog</line>
+                    <line>Minding its own business</line>
+                    <line>Shaking off misty morning madness</line>
+                    <line>&#8212; A-ha! &#8212; Thought the creature, &#8212;</line>
+                    <line>I sense spring in the air!</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Egoist</title>
+                <camelCase>egoistSong</camelCase>
+                <trackNumber>10</trackNumber>
+                <lyrics>
+                    <line>Hey, why do you look so sad?</line>
+                    <line>Hey, what’s making you so mad?</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Concussion</title>
+                <camelCase>concussion</camelCase>
+                <trackNumber>11</trackNumber>
+                <lyrics>
+                    <line>Why are you here?</line>
+                    <line>Out of hope or fear?</line>
+                    <line>Did you come for me?</line>
+                    <line>Would you rescue me?</line>
+                    <line>&#160;</line>
+                    <line>What’s my name?</line>
+                    <line>What’s my name?</line>
+                    <line>How do you know me?</line>
+                    <line>Am I insane?</line>
+                    <line>&#160;</line>
+                    <line>Why am I here?</line>
+                    <line>What did I do?</line>
+                    <line>Oh baby, what did you hear?</line>
+                    <line>Oh baby, what if it’s true?</line>
+                    <line>Oh baby, what did you hear?</line>
+                    <line>Oh baby, what if it’s true?</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>coda</title>
+            </song>
+            <song>
+                <title>Fire Drills</title>
+                <camelCase>fireDrills</camelCase>
+                <trackNumber>12</trackNumber>
+                <lyrics>
+                    <line>Fire drills are all that I hear</line>
+                    <line>Senseless fear is all that I feel</line>
+                    <line>&#160;</line>
+                    <line>Will you tell me, when the end is near?</line>
+                    <line>Will you close my eyes, when I’m not here?</line>
+                    <line>&#160;</line>
+                    <line>I’ll stay with you no matter what I say</line>
+                    <line>I’ll be with you no matter what you do</line>
+                </lyrics>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <albumTitle>Colorblind</albumTitle>
+        <year>2010</year>
+        <additionalInfo>
+            Lyrics:<br/>
+            Zhenya Kogan<br/><br/>
+            Live session recorded by students at<br/><a href="http://www.expression.edu" target="_blank">Ex'pression College of Digital Arts</a> on July 18, 2009<br/><br/>
+            Mixing, mastering and additional recording by<br/>Aaron Madsen at <a href="http://www.facebook.com/pages/Madhouse-Studios/89648448090" target="_blank">Madhouse Studios</a> November 2009 - May 2010<br/><br/>
+            Photograph on the cover by<br/><a href="http://elenazhukova.com" target="_blank">Elena Zhukova</a>
+        </additionalInfo>
+        <songs>
+            <song>
+                <title>Inside My Head (intro)</title>
+                <camelCase>insideMyHeadIntro</camelCase>
+                <trackNumber>01</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Inside My Head</title>
+                <camelCase>insideMyHead</camelCase>
+                <trackNumber>02</trackNumber>
+                <lyrics>
+                    <line>Crawl inside my head</line>
+                    <line>I'll be your friend</line>
+                    <line>I'll hold your hand</line>
+                    <line>&#160;</line>
+                    <line>Open the gate</line>
+                    <line>I'm not afraid</line>
+                    <line>I'm not just the bait</line>
+                    <line>&#160;</line>
+                    <line>Don't leave me inside</line>
+                    <line>It'll be tonight</line>
+                    <line>We'll follow the kite</line>
+                    <line>&#160;</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Hitchhiker's Dream 1</title>
+                <camelCase>hitchhikersDream1</camelCase>
+                <trackNumber>03</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Speak Your Lies</title>
+                <camelCase>speakYourLies</camelCase>
+                <trackNumber>04</trackNumber>
+                <lyrics>
+                    <line>Speak your lies</line>
+                    <line>I'll dim the lights</line>
+                    <line>No one will ever know just you and me</line>
+                    <line>&#160;</line>
+                    <line>Roll up your sleaves</line>
+                    <line>Let's plant a seed</line>
+                    <line>No one will ever know just you and me</line>
+                    <line>&#160;</line>
+                    <line>Just me and you...</line>
+                    <line>Just me and you...</line>
+                    <line>&#160;</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Hitchhiker's Dream 2</title>
+                <camelCase>hitchhikersDream2</camelCase>
+                <trackNumber>05</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Breaks</title>
+                <camelCase>breaks</camelCase>
+                <trackNumber>06</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>In</title>
+                <camelCase>in</camelCase>
+                <trackNumber>07</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Wandering Fish</title>
+                <camelCase>wanderingFish</camelCase>
+                <trackNumber>08</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Wrinkles</title>
+                <camelCase>wrinkles</camelCase>
+                <trackNumber>09</trackNumber>
+                <lyrics>
+                    <line>In every wrinkle on the tips of your fingers</line>
+                    <line>I see the sun</line>
+                    <line>&#160;</line>
+                    <line>In every drop of juice on your lips</line>
+                    <line>I see the sun</line>
+                    <line>&#160;</line>
+                    <line>In the course of breaking your doors</line>
+                    <line>I see the sun</line>
+                    <line>&#160;</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Blue Skies</title>
+                <camelCase>blueSkies</camelCase>
+                <trackNumber>10</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Dark Waters</title>
+                <camelCase>darkWaters</camelCase>
+                <trackNumber>11</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+            <song>
+                <title>Air Is My Drug</title>
+                <camelCase>airIsMyDrug</camelCase>
+                <trackNumber>12</trackNumber>
+                <lyrics>
+                    <line>...instrumental...</line>
+                </lyrics>
+            </song>
+        </songs>
+    </album>
+</albums>
