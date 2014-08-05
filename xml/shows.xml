@@ -27,7 +27,7 @@
 				<link>http://auktyon.com</link>
 			</artist>
 		</otherArtists>
-        <additionalInfo>Morning experimental improv set with Max Abelev and afternoon set as Varona.</additionalInfo>
+		<additionalInfo>Morning experimental improv set with Max Abelev and afternoon set as Varona.</additionalInfo>
 	</show>
 	<show>
 		<date>05/16/11</date>
@@ -51,12 +51,12 @@
 		<date>09/25/10</date>
 		<time>02:00pm</time>
 		<venue>
-            <name>Theatre Square</name>
+			<name>Theatre Square</name>
 			<address>Downtown</address>
 			<city>Petaluma</city>
 			<state>CA</state>
 		</venue>
-        <additionalInfo>Don't miss the 5th annual "Taste of Petaluma" where you'll sample everything that Petaluma's upscale culinary scene has to offer in one afternoon. This year, over 70 of Petaluma's finest establishments will tempt you with their talents.</additionalInfo>
+		<additionalInfo>Don't miss the 5th annual "Taste of Petaluma" where you'll sample everything that Petaluma's upscale culinary scene has to offer in one afternoon. This year, over 70 of Petaluma's finest establishments will tempt you with their talents.</additionalInfo>
 	</show>
 	<show>
 		<date>09/18/10</date>
@@ -189,29 +189,29 @@
 		<date>10/11/09</date>
 		<time>05:15pm</time>
 		<venue>
-            <name>Mariposa Stage</name>
+			<name>Mariposa Stage</name>
 			<address>Indiana St. closest to Mariposa St.</address>
 			<city>San Francisco</city>
 			<state>CA</state>
 		</venue>
-        <additionalInfo>Annual Burning Man <a href="http://www.burningman.com/blackrockcity_yearround/special_events/decompression/decom2009.html" target="_blank">Decompression party</a></additionalInfo>
+		<additionalInfo>Annual Burning Man <a href="http://www.burningman.com/blackrockcity_yearround/special_events/decompression/decom2009.html" target="_blank">Decompression party</a></additionalInfo>
 	</show>
 	<show>
 		<date>09/26/09</date>
 		<time>01:00pm</time>
 		<venue>
-            <name>Golden Eagle River Stage</name>
+			<name>Golden Eagle River Stage</name>
 			<address>Downtown</address>
 			<city>Petaluma</city>
 			<state>CA</state>
 		</venue>
-        <additionalInfo><a href="http://tasteofpetaluma.org" target="_blank">Taste of Petaluma</a>. Over 60 vendors will host culinary delights and local wines to hundreds of guests.</additionalInfo>
+		<additionalInfo><a href="http://tasteofpetaluma.org" target="_blank">Taste of Petaluma</a>. Over 60 vendors will host culinary delights and local wines to hundreds of guests.</additionalInfo>
 	</show>
 	<show>
 		<date>06/21/09</date>
 		<time>tba</time>
 		<venue>
-            <name>Rickshaw Stop</name>
+			<name>Rickshaw Stop</name>
 			<address>155 Fell St</address>
 			<city>San Francisco</city>
 			<state>CA</state>
@@ -223,13 +223,13 @@
 				<link>http://auktyon.com</link>
 			</artist>
 		</otherArtists>
-        <additionalInfo>Acoustic set (percussion, no drums).</additionalInfo>
+		<additionalInfo>Acoustic set (percussion, no drums).</additionalInfo>
 	</show>
 	<show>
 		<date>06/06/09</date>
 		<time>12:45am</time>
 		<venue>
-            <name>Mission Rock Cafe</name>
+			<name>Mission Rock Cafe</name>
 			<address>817 Terry Francois St</address>
 			<city>San Francisco</city>
 			<state>CA</state>
@@ -240,7 +240,7 @@
 		<date>05/20/09</date>
 		<time>08:00pm</time>
 		<venue>
-            <name>Rickshaw Stop</name>
+			<name>Rickshaw Stop</name>
 			<address>155 Fell St</address>
 			<city>San Francisco</city>
 			<state>CA</state>
@@ -262,7 +262,7 @@
 		<date>04/16/09</date>
 		<time>07:00pm</time>
 		<venue>
-            <name>Movie Night</name>
+			<name>Movie Night</name>
 			<address>Dolores Park</address>
 			<city>San Francisco</city>
 			<state>CA</state>
@@ -909,7 +909,7 @@
 			<state>CA</state>
 		</venue>
 	</show>
-    <show>
+	<show>
 		<date>04/01/06</date>
 		<time>08:00pm</time>
 		<venue>

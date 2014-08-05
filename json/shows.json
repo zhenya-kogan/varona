@@ -1,9 +1,898 @@
 {
-    "shows": [{
-        "date": "12/12/12",
-        "venue": "The Fillmore"
-    }, {
-        "date": "13/13/13",
-        "venue": "El Rio"
-    }]
+	"shows": [{
+	},
+	{
+		"date": "02/04/12",
+		"time": "05:45pm",
+		"venue": {
+			"name": "Rockit Room",
+			"address": "406 Clement St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Zhenya, Keith, and Max are playing at the local festival <a href=\"https://www.facebook.com/events/251925594861091/\" target=\"_blank\">Shtopor</a>"
+	},
+	{
+		"date": "06/18/11",
+		"time": "04:30am and 03:00pm",
+		"venue": {
+			"name": "Red Marines Festival",
+			"address": "Indian Valley Reservoir",
+			"city": "Clearlake Oaks",
+			"state": "CA"
+		},
+		"artistRelationship": "Headliner:",
+		"artists": [{
+			"name": "Leonid Fedorov &amp; Vladimir Volkov",
+			"link": "http://auktyon.com"
+		}],
+		"additionalInfo": "Morning experimental improv set with Max Abelev and afternoon set as Varona."
+	},
+	{
+		"date": "05/16/11",
+		"time": "9:00pm",
+		"venue": {
+			"name": "Rogue Bar",
+			"address": "423 North Scottsdale Road",
+			"city": "Scottsdale",
+			"state": "AZ"
+		},
+		"artistRelationship": "With:",
+		"artists": [{
+			"name": "Escalator Hill",
+			"link": "http://www.escalatorhill.com"
+		}],
+		"additionalInfo": "Zhenya Kogan with Nancy Kuo on violin."
+	},
+	{
+		"date": "09/25/10",
+		"time": "02:00pm",
+		"venue": {
+			"name": "Theatre Square",
+			"address": "Downtown",
+			"city": "Petaluma",
+			"state": "CA"
+		},
+		"additionalInfo": "Don't miss the 5th annual \"Taste of Petaluma\" where you'll sample everything that Petaluma's upscale culinary scene has to offer in one afternoon. This year, over 70 of Petaluma's finest establishments will tempt you with their talents."
+	},
+	{
+		"date": "09/18/10",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Kaleidoscope",
+			"address": "3109 24th St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Varona plays Kaleidoscope every 3rd Saturday of the month."
+	},
+	{
+		"date": "07/17/10",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Kaleidoscope",
+			"address": "3109 24th St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Varona plays Kaleidoscope every 3rd Saturday of the month. This time Max Abelev joins with his effects and soundscapes for a unique set with the band and his own dj performance."
+	},
+	{
+		"date": "06/19/10",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Kaleidoscope",
+			"address": "3109 24th St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Varona plays Kaleidoscope every 3rd Saturday of the month."
+	},
+	{
+		"date": "05/15/10",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Kaleidoscope",
+			"address": "3109 24th St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Varona plays Kaleidoscope every 3rd Saturday of the month. This time Max Abelev joins with his effects and soundscapes for a unique set with the band and his own dj performance."
+	},
+	{
+		"date": "04/17/10",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Kaleidoscope",
+			"address": "3109 24th St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "This time with",
+		"artists": [{
+			"name": "Ettie Street Project",
+			"link": "http://ettiestreetproject.com"
+		}],
+		"additionalInfo": "Varona plays Kaleidoscope every 3rd Saturday of the month."
+	},
+	{
+		"date": "04/02/10",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Kaleidoscope",
+			"address": "3109 24th St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Also playing:",
+		"artists": [{
+			"name": "Radio Free Clear Light",
+			"link": "http://radiofreeclearlight.com"
+		}],
+		"additionalInfo": "Members of Varona will participate in an experimental collaborative session lead by Max Abelev."
+	},
+	{
+		"date": "03/15/10",
+		"time": "07:00pm",
+		"venue": {
+			"name": "The Fillmore (Poster Room)",
+			"address": "1805 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Main stage:",
+		"artists": [{
+			"name": "Balkan Beat Box",
+			"link": "http://balkanbeatbox.com"
+		}],
+		"additionalInfo": "Acoustic set."
+	},
+	{
+		"date": "03/06/10",
+		"time": "01:20am",
+		"venue": {
+			"name": "Space 550",
+			"address": "550 Barneveld Ave",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Burnal Equinox"
+	},
+	{
+		"date": "12/31/09",
+		"time": "08:00pm",
+		"venue": {
+			"name": "The Fillmore (Poster Room)",
+			"address": "1805 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Main stage:",
+		"artists": [{
+			"name": "Les Claypool",
+			"link": "http://lesclaypool.com"
+		}],
+		"additionalInfo": "CANCELED (the concert will take place, but Varona is not playing that evening)"
+	},
+	{
+		"date": "10/11/09",
+		"time": "05:15pm",
+		"venue": {
+			"name": "Mariposa Stage",
+			"address": "Indiana St. closest to Mariposa St.",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Annual Burning Man <a href=\"http://www.burningman.com/blackrockcity_yearround/special_events/decompression/decom2009.html\" target=\"_blank\">Decompression party</a>"
+	},
+	{
+		"date": "09/26/09",
+		"time": "01:00pm",
+		"venue": {
+			"name": "Golden Eagle River Stage",
+			"address": "Downtown",
+			"city": "Petaluma",
+			"state": "CA"
+		},
+		"additionalInfo": "<a href=\"http://tasteofpetaluma.org\" target=\"_blank\">Taste of Petaluma</a>. Over 60 vendors will host culinary delights and local wines to hundreds of guests."
+	},
+	{
+		"date": "06/21/09",
+		"time": "tba",
+		"venue": {
+			"name": "Rickshaw Stop",
+			"address": "155 Fell St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Headliner:",
+		"artists": [{
+			"name": "Leonid Fedorov &amp; Vladimir Volkov",
+			"link": "http://auktyon.com"
+		}],
+		"additionalInfo": "Acoustic set (percussion, no drums)."
+	},
+	{
+		"date": "06/06/09",
+		"time": "12:45am",
+		"venue": {
+			"name": "Mission Rock Cafe",
+			"address": "817 Terry Francois St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Burning Man <a href=\"http://www.burningman.com/blackrockcity_yearround/special_events/precom2009.html\" target=\"_blank\">precompression party</a>"
+	},
+	{
+		"date": "05/20/09",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Rickshaw Stop",
+			"address": "155 Fell St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "with",
+		"artists": [{
+			"name": "Fromagique",
+			"link": "http://myspace.com/fromagique"
+		},
+		{
+			"name": "Go Van Gogh",
+			"link": "http://govangogh.net"
+		}],
+		"additionalInfo": "&quot;Egoist&quot; release party. Show starts at 8pm, Varona is on at 10pm"
+	},
+	{
+		"date": "04/16/09",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Movie Night",
+			"address": "Dolores Park",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Outdoors movie showing after Varona's set. <a href=\"http://www.doloresparkmovie.org/\" target=\"_blank\">www.doloresparkmovie.org</a>"
+	},
+	{
+		"date": "04/10/09",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Revolution Cafe",
+			"address": "3248 22nd St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Acoustic set."
+	},
+	{
+		"date": "04/09/09",
+		"time": "11:00pm",
+		"venue": {
+			"name": "Grant &amp; Green",
+			"address": "1371 Grant St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Varona performs after a comedy show which starts at 9pm."
+	},
+	{
+		"date": "03/20/09",
+		"time": "11:30pm",
+		"venue": {
+			"name": "Ex'pression College",
+			"address": "6601 Shellmound St",
+			"city": "Emeryville",
+			"state": "CA"
+		},
+		"additionalInfo": "Live video webcast"
+	},
+	{
+		"date": "03/05/09",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Retox Lounge",
+			"address": "628 20th St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "10/19/08",
+		"time": "07:00pm",
+		"venue": {
+			"name": "The Fillmore (Poster Room)",
+			"address": "1805 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Main stage:",
+		"artists": [{
+			"name": "Flogging Molly",
+			"link": "http://floggingmolly.com"
+		}]
+	},
+	{
+		"date": "09/10/08",
+		"time": "07:00pm",
+		"venue": {
+			"name": "The Fillmore (Poster Room)",
+			"address": "1805 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Main stage:",
+		"artists": [{
+			"name": "Balkan Beat Box",
+			"link": "http://balkanbeatbox.com"
+		}
+	},
+	{
+		"date": "08/06/08",
+		"time": "10:00pm",
+		"venue": {
+			"name": "Beale Street Bar &amp; Grill",
+			"address": "133 Beale St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "With",
+		"artists": [{
+			"name": "Tango La Melodia",
+			"link": "http://www.myspace.com/tangolamelodia"
+		},
+		{
+			"name": "a few other cool bands",
+		}],
+		"additionalInfo": "Show starts at 8pm, Varona is on at 10pm."
+	},
+	{
+		"date": "07/25/08",
+		"time": "09:30pm",
+		"venue": {
+			"name": "Ex'pression College",
+			"address": "6601 Shellmound St",
+			"city": "Emeryville",
+			"state": "CA"
+		},
+		"additionalInfo": "Live video webcast"
+	},
+	{
+		"date": "05/25/08",
+		"time": "08:00pm",
+		"venue": {
+			"name": "The Bit Saloon",
+			"address": "4818 17th Ave",
+			"city": "Seattle",
+			"state": "WA"
+		},
+		"artistRelationship": "With",
+		"artists": [{
+			"name": "Chervona",
+			"link": "http://www.chervona.com"
+		},
+		{
+			"name": "Boys of Greenwood Glen",
+			"link": "http://www.boysofgreenwodglen.com"	
+		},
+		{
+			"name": "Sid and Fancy",
+			"link": "http://www.sidandfancy.com"
+		}]
+	},
+	{
+		"date": "05/24/08",
+		"time": "09:30pm",
+		"venue": {
+			"name": "Rendezvous Grotto (downstairs)",
+			"address": "2322 2nd Ave",
+			"city": "Seattle",
+			"state": "WA"
+		},
+		"artistRelationship": "With",
+		"artists": [{
+			"name": "Chervona",
+			"link": "http://www.myspace.com/chervona"
+		}]
+	},
+	{
+		"date": "05/23/08",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Plan B",
+			"address": "1305 SE 8th Ave",
+			"city": "Portland",
+			"state": "OR"
+		},
+		"artistRelationship": "With",
+		"artists": [{
+			"name": "Chervona",
+			"link": "http://www.myspace.com/chervona"
+		}]
+	},
+	{
+		"date": "05/17/08",
+		"time": "07:00pm",
+		"venue": {
+			"name": "12 Galaxies",
+			"address": "2565 Mission St",
+			"city": "San Francisco",
+			"state": "CA"
+			"link": ""
+		},
+		"additionalInfo": "San Francisco best up and coming independent artists of 2008 showcase"
+	},
+	{
+		"date": "05/10/08",
+		"time": "09:30pm",
+		"venue": {
+			"name": "Hotel Utah",
+			"address": "500 Fourth Street",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "With",
+		"artists": [{
+			"name": "The Procrastinistas",
+			"link": "http://www.myspace.com/theprocrastinistas"
+		},
+		{
+			"name": "Curt Yagi",
+			"link": "http://www.curtyagi.com"
+		}],
+		"additionalInfo": "Varona plays at MIDNIGHT"
+	},
+	{
+		"date": "04/28/08",
+		"time": "07:00pm",
+		"venue": {
+			"name": "The Fillmore (Poster Room)",
+			"address": "1805 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Main stage:",
+		"artists": [{
+			"name": "Devotchka",
+			"link": "http://www.devotchka.net"
+		}]
+	},
+	{
+		"date": "03/30/08",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Rickshaw Stop",
+			"address": "155 Fell St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Headliner:",
+		"artists": [{
+			"name": "Auktyon w/Vladimir Volkov",
+			"link": "http://www.auktyon.com"
+		}]
+	},
+	{
+		"date": "03/08/08",
+		"time": "06:00pm",
+		"venue": {
+			"name": "California State University: East Bay",
+			"address": "25800 Carlos Bee Blvd",
+			"city": "Hayward",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "03/06/08",
+		"time": "07:00pm",
+		"venue": {
+			"name": "The Fillmore (Poster Room)",
+			"address": "1805 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Main stage:",
+		"artists": [{
+			"name": "Balkan Beat Box",
+			"link": "http://balkanbeatbox.com"
+		}],
+		"additionalInfo": "CANCELED"
+	},
+	{
+		"date": "02/09/08",
+		"time": "06:00pm",
+		"venue": {
+			"name": "Somarts",
+			"address": "934 Brannan St",
+			"city": "San Francisco",
+			"state": "CA"
+			"link": ""
+		},
+		"additionalInfo": "<a href=\"http://www.eternalspring08.com\" target=\"_blank\">Eternal Spring '08 Fashion Show</a>"
+	},
+	{
+		"date": "01/09/08",
+		"time": "07:00pm",
+		"venue": {
+			"name": "The Fillmore (Poster Room)",
+			"address": "1805 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Main stage:",
+		"artists": [{
+			"name": "Xavier Rudd",
+			"link": "http://www.xavierrudd.com"
+		}]
+	},
+	{
+		"date": "11/16/07",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Revolution Cafe",
+			"address": "3248 22nd St",
+			"city": "San Francisco",
+			"state": "CA"
+			"link": ""
+		}
+	},
+	{
+		"date": "11/14/07",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Rickshaw Stop",
+			"address": "155 Fell St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Headliner:",
+		"artists": [{
+			"name": "Tequilajazzz",
+			"link": "http://tequilajazzz.com"
+		}]
+	},
+	{
+		"date": "11/02/07",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Revolution Cafe",
+			"address": "3248 22nd St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "10/29/07",
+		"time": "07:00pm",
+		"venue": {
+			"name": "The Fillmore (Poster Room)",
+			"address": "1805 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Main stage:",
+		"artists": [{
+			"name": "Broken Social Scene",
+			"link": "http://myspace.com/brokensocialscene"
+		}]
+	},
+	{
+		"date": "09/23/07",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Ireland's 32",
+			"address": "3920 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "With",
+		"artists": [{
+			"name": "Slyway",
+			"link": "http://www.slywaymusic.com"
+		}]
+	},
+	{
+		"date": "06/30/07",
+		"time": "05:00pm",
+		"venue": {
+			"name": "Red Marines Festival",
+			"address": "Indian Valley Reservoir",
+			"city": "Clearlake Oaks",
+			"state": "CA"
+		},
+		"artistRelationship": "Headliner:",
+		"artists": [{
+			"name": "Estradasphere",
+			"link": "http://www.estradasphere.com"
+		}]
+	},
+	{
+		"date": "06/24/07",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Blondie's Bar &amp; No Grill",
+			"address": "540 Valencia St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "05/13/07",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Blondie's Bar &amp; No Grill",
+			"address": "540 Valencia St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "05/12/07",
+		"time": "12:00pm",
+		"venue": {
+			"name": "Springtime Rockenroll",
+			"address": "24361 Eden",
+			"city": "Hayward",
+			"state": "CA"
+		},
+		"artistRelationship": "With",
+		"artists": [{
+			"name": "Black Dream",
+			"link": "http://www.blackdreamband.com"
+		},
+		{
+			"name": "others",
+		}],
+		"additionalInfo": "Springtime rokenroll potluck bbq"
+	},
+	{
+		"date": "04/08/07",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Blondie's Bar &amp; No Grill",
+			"address": "540 Valencia St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "03/18/07",
+		"time": "12:00pm",
+		"venue": {
+			"name": "Pier 39",
+			"address": "Fisherman's Warf",
+			"city": "San Francisco",
+			"state": ""
+		}
+	},
+	{
+		"date": "02/25/07",
+		"time": "07:00pm",
+		"venue": {
+			"name": "International Student Center",
+			"address": "Stanford University",
+			"city": "Palo Alto",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "02/24/07",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Canvas Gallery",
+			"address": "1200 9th Ave",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "12/16/06",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Art Room",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "12/03/06",
+		"time": "08:00pm",
+		"venue": {
+			"name": "House Concert",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "With",
+		"artists": [{
+			"name": "MiruMir",
+			"link": "http://www.starbugs.com"
+		}]
+	},
+	{
+		"date": "12/02/06",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Aura Night Club",
+			"address": "12215 Ventura Blvd",
+			"city": "Los Angeles",
+			"state": "CA"
+		},
+		"artistRelationship": "Headliner:",
+		"artists": [{
+			"name": "Red Elvises",
+			"link": "http://www.redelvises.com"
+		}],
+		"additionalInfo": "Light It Up Festival"
+	},
+	{
+		"date": "12/01/06",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Quarter Note",
+			"address": "1214 Apollo Way",
+			"city": "Sunnyvale",
+			"state": "CA"
+		},
+		"artistRelationship": "With:",
+		"artists": [{
+			"name": "MiruMir",
+			"link": "http://www.starbugs.com"
+		}]
+	},
+	{
+		"date": "10/27/06",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Halloween Private Party",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "10/27/06",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Art Room",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "09/08/06",
+		"time": "09:00pm",
+		"venue": {
+			"name": "Mikrofon DeKompress",
+			"address": "58 Tehama St",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "<a href=\"http://burningman.com\" target=\"_blank\">Burning Man</a> decompression party"
+	},
+	{
+		"date": "07/31/06",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Blondie's Bar &amp; No Grill",
+			"address": "540 Valencia St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "07/19/06",
+		"time": "08:00pm",
+		"venue": {
+			"name": "El Rio",
+			"address": "3158 Mission St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "07/15/06",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Red Marines Festival",
+			"address": "Indian Valley Reservoir",
+			"city": "Clearlake Oaks",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "07/12/06",
+		"time": "07:30pm",
+		"venue": {
+			"name": "The Blank Club",
+			"address": "44 S. Almaden Ave",
+			"city": "San Jose",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "07/07/06",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Blue Rock Shoot",
+			"address": "14523 Big Basin Way",
+			"city": "Saratoga",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "06/17/06",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Art Room",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "05/01/06",
+		"time": "09:30pm",
+		"venue": {
+			"name": "Blondies Bar &amp; No Grill",
+			"address": "540 Valencia St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "04/15/06",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Art Room",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "04/07/06",
+		"time": "11:00pm",
+		"venue": {
+			"name": "BrainWash Cafe",
+			"address": "1122 Folsom St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "04/01/06",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Cafe Sapore",
+			"address": "790 Lombard St",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "02/25/06",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Art Room",
+			"city": "San Francisco",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "01/28/06",
+		"time": "08:00pm",
+		"venue": {
+			"name": "'60s Theme Party",
+			"city": "San Jose",
+			"state": "CA"
+		}
+	},
+	{
+		"date": "01/21/06",
+		"time": "08:00pm",
+		"venue": {
+			"name": "House Concert",
+			"city": "San Anselmo",
+			"state": "CA"
+		}
+	}
+	
+	]
 }
