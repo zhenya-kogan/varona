@@ -2,13 +2,17 @@
 
 <!-- (c) Zhenya Kogan 2007 -->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" ng-app="Varona">
 <head>
     <title>VARONA - Colorblind is out</title>
     <link rel="stylesheet" media="screen" type="text/css" href="css/styles.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-route.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/controllers.js"></script>
     <link href="https://plus.google.com/b/114938413860487312834/114938413860487312834/posts" rel="publisher" />
     <script type="text/javascript">
         (function() {
@@ -367,7 +371,7 @@ libxsltmod.translate_to_stream('c', albumTracklistStylesheet, 'f', '/home/zhenya
     <a id="shows">.</a>
 </div>
 
-<div class="page showsPage">
+<div class="page showsPage" ng-controller="ShowsCtrl">
     <div class="innerWrapper">
         <div class="bandLogoPlacer">
             <div class="bandLogo">
@@ -397,13 +401,6 @@ libxsltmod.translate_to_stream('c', albumTracklistStylesheet, 'f', '/home/zhenya
 
                     
                     <div id="upcomingShows" class="showsList toggleContent">
-                        <!--<iframe src="http://www.google.com/calendar/hosted/varonaband.com/embed?showTitle=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=varonaband.com_mcve8pa2pefpn4lgn2r80qme4o%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-                    <!-- below is the old calendar view. now removed with google cal's integration -->
-                        <ul>
-<%
-libxsltmod.translate_to_stream('c', showsStylesheet, 'f', '/home/zhenya/public_html/xml/showsUpcoming.xml', None, req, {})
-%>
-                        </ul>
                     </div>
                     <div id="pastShows" class="showsList toggleContent active">
                         <ul>

@@ -411,9 +411,30 @@ libxsltmod.translate_to_stream('c', showsStylesheet, 'f', '/home/zhenya/public_h
                     </div>
                     <div id="pastShows" class="showsList toggleContent active">
                         <ul>
-<%
-libxsltmod.translate_to_stream('c', showsStylesheet, 'f', '/home/zhenya/public_html/xml/shows.xml', None, req, {})
-%>
+        <li ng-repeat="show in shows">
+            <div class="showTimeLocation">
+                &#8212; {{show.date}} {{show.time}}  &#8212; {{show.venue.name}} &#8212; {{show.venue.address}}, {{show.venue.city}}, {{show.venue.state}} {{show.ticketsLink}}
+            </div>
+			<div class="showMoreInfo" ng-show="show.additionalInfo || show.artists">
+				{{show.additionalInfo}} {{show.artistRelationship}} {{show.artists[0].name}}
+                    <!--<xsl:copy-of select="additionalInfo" /><xsl:text>&#160;</xsl:text><xsl:value-of select="otherArtists/relationship" />
+                    <xsl:for-each select="otherArtists/artist">
+                        <xsl:choose>
+                            <xsl:when test="position() = 1"><xsl:text>&#160;</xsl:text></xsl:when>
+                            <xsl:when test="position() = last()"><xsl:text> and </xsl:text></xsl:when>
+                            <xsl:when test="position() &gt; 1"><xsl:text>, </xsl:text></xsl:when>
+                        </xsl:choose>
+                        <xsl:choose>
+                            <xsl:when test="link">
+                                <a href="{link}" target="_blank"><xsl:value-of select="name" /></a>
+                            </xsl:when>
+                            <xsl:when test="not(link)">
+                                <xsl:value-of select="name" />
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:for-each>-->
+			</div>
+        </li>
                         </ul>
                     </div>
                 </div><!--pageContent end-->        
