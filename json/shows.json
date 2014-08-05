@@ -325,7 +325,7 @@
 		"artists": [{
 			"name": "Balkan Beat Box",
 			"link": "http://balkanbeatbox.com"
-		}
+		}]
 	},
 	{
 		"date": "08/06/08",
@@ -342,7 +342,7 @@
 			"link": "http://www.myspace.com/tangolamelodia"
 		},
 		{
-			"name": "a few other cool bands",
+			"name": "a few other cool bands"
 		}],
 		"additionalInfo": "Show starts at 8pm, Varona is on at 10pm."
 	},
@@ -417,7 +417,7 @@
 			"name": "12 Galaxies",
 			"address": "2565 Mission St",
 			"city": "San Francisco",
-			"state": "CA"
+			"state": "CA",
 			"link": ""
 		},
 		"additionalInfo": "San Francisco best up and coming independent artists of 2008 showcase"
@@ -505,7 +505,7 @@
 			"name": "Somarts",
 			"address": "934 Brannan St",
 			"city": "San Francisco",
-			"state": "CA"
+			"state": "CA",
 			"link": ""
 		},
 		"additionalInfo": "<a href=\"http://www.eternalspring08.com\" target=\"_blank\">Eternal Spring '08 Fashion Show</a>"
@@ -532,7 +532,7 @@
 			"name": "Revolution Cafe",
 			"address": "3248 22nd St",
 			"city": "San Francisco",
-			"state": "CA"
+			"state": "CA",
 			"link": ""
 		}
 	},
@@ -641,7 +641,7 @@
 			"link": "http://www.blackdreamband.com"
 		},
 		{
-			"name": "others",
+			"name": "others"
 		}],
 		"additionalInfo": "Springtime rokenroll potluck bbq"
 	},
