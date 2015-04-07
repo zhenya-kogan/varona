@@ -110,7 +110,7 @@ $(function() {
 		"text-align": "center"
 	});
 	
-	for (var i = 0; i < 48 ; i++) {
+	for (var i = 0; i < 60 ; i++) {
 		letters[i] = new Letter();
 		letters[i].init();
 	}
@@ -132,7 +132,7 @@ $(function() {
 
 			event.preventDefault();
 
-			for (var i = 0; i < 48 ; i++) {
+			for (var i = 0; i < 60 ; i++) {
 				letters[i].reset();
 			}
 			currentCharIndex = 0;
@@ -150,8 +150,8 @@ $(function() {
 
 			event.preventDefault();
 
-			if (currentCharIndex < letters.length - 8) {
-				currentCharIndex = currentCharIndex + 8 - (currentCharIndex % 8);
+			if (currentCharIndex < letters.length - 10) {
+				currentCharIndex = currentCharIndex + 10 - (currentCharIndex % 10);
 			}
 
 		} else if ((typeof event.which === "undefined") || ((typeof event.which === "number" && event.which > 0) && (!event.ctrlKey && !event.metaKey && !event.altKey && event.which != 8))) {
