@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<a href="javascript:(function(){
+
+			var expanded_css = {
+				'display': '-webkit-box',
+				'height': '60px',
+				'text-overflow': 'ellipsis',
+				'overflow': 'hidden',
+				'-webkit-box-orient': 'vertical',
+				'-webkit-line-clamp': '3'
+			};
+
+			var collapsed_css = {
+				'display': 'block',
+				'height': 'auto',
+				'text-overflow': 'none',
+				'overflow': 'visible',
+			};
+			
+			$('.message-text p').each(function(){
+				var full_message = $(this).html();
+				if (full_message.length > 200) {
+					$(this)
+						.css(expanded_css)
+						.addClass('expandedMessage')
+						.on('click', function() {
+							$(this).toggleClass('expandedMessage');
+							if ($(this).hasClass('expandedMessage')) {
+								$(this)
+									.css(collapsed_css);
+							} else {
+								$(this)
+									.css(expanded_css);
+							}
+						});
+				}
+
+			});
+		})();">shorten messages</a>
+
+	</body>
+</html>

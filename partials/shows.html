@@ -1,0 +1,34 @@
+<!--<div class="secondNav">
+	<span class="toggleLink active" linkto="upcomingShows">upcoming</span>
+	<span class="toggleLink" linkto="pastShows">past</span>
+</div>-->
+
+
+<div class="pageContent">
+
+	
+	<!--<div id="upcomingShows" class="showsList toggleContent">
+		<ul>
+		</ul>
+	</div>-->
+	<div id="pastShows" class="showsList toggleContent active">
+		<ul>
+			<li ng-repeat="show in shows">
+				<div class="showTimeLocation">
+					&#8212; {{show.date}} {{show.time}}  &#8212; {{show.venue.name}} &#8212; {{show.fullAddress}}
+				</div>
+				<div class="showMoreInfo">
+					<span ng-bind-html="show.additionalInfo"></span>
+					{{show.artistRelationship}}
+					<span ng-repeat="artist in show.artists">
+						<span ng-if="$middle">, </span>
+						<span ng-if="$last && !$first"> and </span>
+						<a ng-if="artist.link" ng-href="{{artist.link}}" target="_blank">{{artist.name}}</a>
+						<span ng-if="!artist.link">{{artist.name}}</span>
+					</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div><!--pageContent end-->        
+

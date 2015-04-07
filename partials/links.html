@@ -1,0 +1,18 @@
+<div class="pageContent" ng-cloak>
+	<!--
+	<div class="toggleContent active" id="musicWeLikePlayer">
+		<object width="600" height="332"><param name="movie" value="http://www.youtube.com/cp/vjVQa1PpcFMhJE4CQ6iKu1PcfqDjjVmDwfH1xFIcaQo="></param><embed src="http://www.youtube.com/cp/vjVQa1PpcFMhJE4CQ6iKu1PcfqDjjVmDwfH1xFIcaQo=" type="application/x-shockwave-flash" width="600" height="332"></embed></object>
+		<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/dZZnKmzkU04?list=PLD95DFC4492531A02" frameborder="0" allowfullscreen></iframe>
+	</div>
+	-->
+	<div class="music active toggleContent" id="musicWeLikeList" ng-controller="MusicWeLikeCtrl">
+		<p>We're always searching for new music. If you know a good band and don't see it here, let us know about it! <a href="mailto:varonasf@gmail.com">varonasf@gmail.com</a></p>
+		<ul>
+			<li ng-repeat="band in bands">
+				<a ng-href="{{band.url}}" target="_blank">{{band.name}}</a>
+			</li>
+		</ul>
+	   
+	</div>
+</div><!--pageContent end-->        
+

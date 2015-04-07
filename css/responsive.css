@@ -1,0 +1,140 @@
+@media (max-width: 800px) {
+	.bandLogo {
+		left: 15px;
+		top: 10px;
+	}
+	.bandLogo img {
+		width: 70%;
+	}
+	.mainNav {
+		height: 60px;
+		padding: 0;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.mainNav .dropDownButton {
+		display: block;
+		cursor: pointer;
+		height: 5px;
+		padding: 10px 0;
+		position: absolute;
+		right: 12px;
+		top: 18px;
+		width: 32px;
+		z-index: 201;
+	}
+	.mainNav .dropDownButton .line {
+		background: #761213;
+		height: 5px;
+		width: 32px;
+	}
+	.mainNav .dropDownButton .line::before {
+		background: #761213;
+		content: "";
+		height: 5px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 32px;
+	}
+	.mainNav .dropDownButton .line::after {
+		background: #761213;
+		content: "";
+		bottom: 0;
+		height: 5px;
+		left: 0;
+		position: absolute;
+		width: 32px;
+	}
+	.mainNav .pageLinks {
+		background: rgba(250,250,250,0.95);
+		border-right: 1px solid #eee;
+		border-bottom: 1px solid #eee;
+		border-left: 1px solid #eee;
+		display: none;
+		padding-left: 0;
+		position: absolute;
+		right: 0;
+		top: 60px;
+	}
+	.mainNav .pageLinks.visible {
+		display: block;
+	}
+	.mainNav .pageLink {
+		clear: both;
+		float: none;
+		padding: 5px 10px;
+		text-align: right;
+		width: auto;
+	}
+	.illustration {
+		position: absolute;
+		width: 70%;
+	}
+	.illustration.top {
+		top: 0;
+	}
+	.page {
+		padding-top: 70px;
+	}
+	.homePage .illustration {
+		width: 40%;
+	}
+	.showsPage .illustration {
+		width: 90%;
+	}
+	.pageContent {
+		padding-right: 20px!important;
+		padding-left: 20px!important;
+	}
+	.homePage .page,
+	.photosPage .page,
+	.aboutPage .page{
+		padding-bottom: 300px!important;
+	}
+	.musicPage .page {
+		padding-bottom: 500px!important;
+	}
+	.showsPage .pageContent {
+		padding-top: 120px!important;
+	}
+	.audioPlayer {
+		width: auto;
+	}
+	.mainFooter .contact_email,
+	.mainFooter .mailing_list {
+		display: none;
+	}
+
+	/* blog */
+	
+	#wrapper {
+		padding: 32px 0 0;
+		width: auto;
+	}
+	#wrapper #content {
+		width: 100%;
+	}
+	#wrapper #content .post img {
+		max-width: 100%;
+	}
+	#sidebar {
+		position: absolute;
+		top: 60px;
+		left: 0;
+	}
+	#sidebar #top #pages,
+	#sidebar #top #search,
+	#sidebar #top #search-scope,
+	#sidebar #top #twitterwrapper,
+	#sidebar #top #twitterInner,
+	#sidebar #top #buttons,
+	#sidebar #bottom,
+	#sidebar #copyright {
+		display: none;
+	}
+
+	/* end of blog */
+}

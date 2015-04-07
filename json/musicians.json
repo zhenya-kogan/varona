@@ -1,0 +1,216 @@
+{
+	"musicians": [{
+		"name": "Zhenya Kogan",
+		"current": true,
+		"instruments": "vocals, guitars",
+		"projects": [{
+			"name": "live",
+			"instruments": ["vocals", "guitars"]
+		},
+		{
+			"name": "egoist",
+			"instruments": ["vocals", "guitars"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["vocals", "guitar"]
+		},
+		{
+			"name": "colorblind",
+			"instruments": ["guitars", "effects", "vocals/voices"]
+		}]
+	},
+	{
+		"name": "Keith Yates",
+		"current": true,
+		"instruments": "saxophones, clarinet",
+		"projects": [{
+			"name": "live",
+			"instruments": ["saxophones", "clarinet"]
+		},
+		{
+			"name": "egoist",
+			"instruments": ["saxophones", "clarinet"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["saxophones", "clarinet"]
+		},
+		{
+			"name": "colorblind",
+			"instruments": ["saxophones", "clarinet", "voices (6)"]
+		}]
+	},
+	{
+		"name": "Brandon Bradshaw",
+		"current": true,
+		"instruments": "drums, percussion",
+		"projects": [{
+			"name": "live",
+			"instruments": ["drums", "percussion", "samples"]
+		},
+		{
+			"name": "egoist",
+			"instruments": ["drums", "percussion"]
+		},
+		{
+			"name": "colorblind",
+			"instruments": ["drums", "percussion"]
+		}]
+	},
+	{
+		"name": "Elyse Weakley",
+		"current": true,
+		"instruments": "keyboard",
+        "url": "http://steelnhammers.com",
+		"projects": [{
+			"name": "live",
+			"instruments": ["keyboard"]
+		},
+		{
+			"name": "colorblind",
+			"instruments": ["keyboard", "synthesizer"]
+		}]
+	},
+	{
+		"name": "Brian Rourke",
+		"current": true,
+		"instruments": "upright bass, electric bass",
+        "url": "http://brianrourke.com",
+		"projects": [{
+			"name": "live",
+			"instruments": ["upright bass", "electric bass"]
+		},
+		{
+			"name": "colorblind",
+			"instruments": ["upright bass", "electric bass"]
+		}]
+	},
+	{
+		"name": "Anya Povzner",
+		"projects": [{
+			"name": "past",
+			"instruments": ["keyboard"]
+		},
+		{
+			"name": "egoist",
+			"instruments": ["keyboard"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["keyboard"]
+		}]
+	},
+	{
+		"name": "Chris Lorentz",
+		"projects": [{
+			"name": "past",
+			"instruments": ["electric bass", "upright bass"]
+		},
+		{
+			"name": "egoist",
+			"instruments": ["electric bass", "upright bass"]
+		}]		
+	},
+	{
+		"name": "Timur Kerimbekov",
+		"projects": [{
+			"name": "past",
+			"instruments": ["percussion", "didgeridoo"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["percussion", "back vocals (10)"]
+		}]
+	},
+	{
+		"name": "Andy Mills",
+		"projects": [{
+			"name": "past",
+			"instruments": ["bass", "trombone"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["bass", "trombone"]
+		}]
+	},
+	{
+		"name": "Amit Waisberg",
+		"projects": [{
+			"name": "past",
+			"instruments": ["lead guitar"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["lead guitar", "mandolin"]
+		}]
+	},
+	{
+		"name": "Casey Bauer",
+		"projects": [{
+			"name": "past",
+			"instruments": ["violin"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["violin (except 02)"]
+		}]
+	},
+	{
+		"name": "Nancy Kuo",
+		"projects": [{
+			"name": "past",
+			"instruments": ["violin", "cello"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["violin (02)"]
+		}]
+	},
+	{
+		"name": "Mike Kolovsky",
+		"projects": [{
+			"name": "past",
+			"instruments": ["tuba"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["tuba", "mad screaming (01)"]
+		}]
+	},
+	{
+		"name": "Nadia Vasiliev",
+		"projects": [{
+			"name": "past",
+			"instruments": ["psaltery", "recorder"]
+		},
+		{
+			"name": "debut",
+			"instruments": ["psaltery", "recorder"]
+		}]
+	},
+	{
+		"name": "Max Abelev",
+        "url": "http://umenden.com",
+		"projects": [{
+			"name": "colorblind",
+			"instruments": ["electronics"]
+		}]
+	},
+	{
+		"name": "Aaron Madsen",
+        "url": "http://www.facebook.com/pages/Madhouse-Studios/89648448090",
+		"projects": [{
+			"name": "colorblind",
+			"instruments": ["lap steel guitar (7-12)", "electric guitar (6)"]
+		}]
+	},
+	{
+		"name": "Mark Smith",
+        "url": "http://en.wikipedia.org/wiki/Mark_Smith_(ice_hockey)",
+		"projects": [{
+			"name": "colorblind",
+			"instruments": ["didgeridoo (1-2)"]
+		}]
+	}]
+}

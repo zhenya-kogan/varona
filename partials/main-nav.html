@@ -1,0 +1,8 @@
+<a class="bandLogo" href="/"><img src="/images/logo-varona.png" alt="VARONA" /></a>
+<div class="dropDownButton" ng-click="showMenu()"><div class="line"></div></div>
+<div class="pageLinks" ng-class="{visible: visibleMenu}">
+	<div ng-repeat="page in pages" ng-if="!page.skipMenu || (page.showOnMobile && visibleMenu)" class="pageLink">
+		<a ng-if="currentPage.class !== page.class" ng-href="{{page.path}}">{{page.name}}</a>
+		<span ng-if="currentPage.class === page.class" class="active">{{page.name}}</span>
+	</div>
+</div>

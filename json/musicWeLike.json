@@ -1,0 +1,546 @@
+{
+	"bands": [{
+        "name": "Portishead",
+        "url": "http://www.portishead.co.uk"
+    },
+    {
+        "name": "MMW",
+        "url": "http://www.mmw.net"
+    },
+    {
+        "name": "Manu Chao",
+        "url": "http://www.manuchao.net"
+    },
+    {
+        "name": "Beirut",
+        "url": "http://www.beirutband.com"
+    },
+    {
+        "name": "Gotan Project",
+        "url": "http://www.gotanproject.com"
+    },
+    {
+        "name": "Beck",
+        "url": "http://www.beck.com"
+    },
+    {
+        "name": "Devotchka",
+        "url": "http://www.devotchka.net"
+    },
+    {
+        "name": "Gogol Bordello",
+        "url": "http://www.gogolbordello.com"
+    },
+    {
+        "name": "Marc Ribot",
+        "url": "http://www.marcribot.com"
+    },
+    {
+        "name": "Wilco",
+        "url": "http://www.wilcoworld.net"
+    },
+    {
+        "name": "Pink Floyd",
+        "url": "http://www.pinkfloyd.com"
+    },
+    {
+        "name": "Tom Waits",
+        "url": "http://www.tomwaits.com"
+    },
+    {
+        "name": "Yma Sumac",
+        "url": "http://www.ymasumac.com"
+    },
+    {
+        "name": "The Mars Volta",
+        "url": "http://www.marsvolta.com"
+    },
+    {
+        "name": "Bjork",
+        "url": "http://www.bjork.com"
+    },
+    {
+        "name": "Messer Fur Frau Mueller",
+        "url": "http://www.myspace.com/messerfurfraumuller"
+    },
+    {
+        "name": "Jason Webley",
+        "url": "http://www.jasonwebley.com"
+    },
+    {
+        "name": "Kultur Shock",
+        "url": "http://www.kulturshock.com"
+    },
+    {
+        "name": "Johnny Cash",
+        "url": "http://www.johnnycash.com"
+    },
+    {
+        "name": "John Zorn",
+        "url": "http://www.tzadik.com"
+    },
+    {
+        "name": "Miles Davis",
+        "url": "http://www.milesdavis.com"
+    },
+    {
+        "name": "Fugazi",
+        "url": "http://www.dischord.com/band/fugazi"
+    },
+    {
+        "name": "The Roots",
+        "url": "http://www.theroots.com"
+    },
+    {
+        "name": "John Coltrane",
+        "url": "http://www.johncoltrane.com"
+    },
+    {
+        "name": "Sonny Rollins",
+        "url": "http://www.sonnyrollins.com"
+    },
+    {
+        "name": "James Brown",
+        "url": "http://www.funky-stuff.com/jamesbrown"
+    },
+    {
+        "name": "The Meters",
+        "url": "http://www.themetersonline.com"
+    },
+    {
+        "name": "The Funk Brothers",
+        "url": "http://en.wikipedia.org/wiki/The_Funk_Brothers"
+    },
+    {
+        "name": "Fiona Apple",
+        "url": "http://www.fiona-apple.com"
+    },
+    {
+        "name": "Radiohead",
+        "url": "http://www.radiohead.com"
+    },
+    {
+        "name": "Talib Kweli",
+        "url": "http://www.talibkweli.com"
+    },
+    {
+        "name": "Mos Def",
+        "url": "http://www.myspace.com/mosdef"
+    },
+    {
+        "name": "Jurassic 5",
+        "url": "http://www.jurassic5.com"
+    },
+    {
+        "name": "D.J. Shadow",
+        "url": "http://www.djshadow.com"
+    },
+    {
+        "name": "David Bowie",
+        "url": "http://www.davidbowie.com"
+    },
+    {
+        "name": "The Stranglers",
+        "url": "http://www.stranglers.net"
+    },
+    {
+        "name": "Q and Not U",
+        "url": "http://www.myspace.com/qandnotu"
+    },
+    {
+        "name": "Auktyon",
+        "url": "http://www.auktyon.com"
+    },
+    {
+        "name": "The White Octave",
+        "url": "http://www.myspace.com/whiteoctave"
+    },
+    {
+        "name": "Helmet",
+        "url": "http://www.helmetmusic.com"
+    },
+    {
+        "name": "Queen",
+        "url": "http://www.queenonline.com"
+    },
+    {
+        "name": "Faith No More",
+        "url": "http://www.fnm.com"
+    },
+    {
+        "name": "Outkast",
+        "url": "http://www.outkast.com"
+    },
+    {
+        "name": "The Pixies",
+        "url": "http://www.myspace.com/pixies"
+    },
+    {
+        "name": "Soul Coughing",
+        "url": "http://www.myspace.com/soulcoughing"
+    },
+    {
+        "name": "Arcade Fire",
+        "url": "http://www.arcadefire.com"
+    },
+    {
+        "name": "The Beatles",
+        "url": "http://www.thebeatles.com"
+    },
+    {
+        "name": "Dinosaur Jr.",
+        "url": "http://www.dinosaurjr.com"
+    },
+    {
+        "name": "Blackalicious",
+        "url": "http://www.blackalicious.com"
+    },
+    {
+        "name": "The Zutons",
+        "url": "http://www.thezutons.com"
+    },
+    {
+        "name": "Ben Harper",
+        "url": "http://www.benharper.com"
+    },
+    {
+        "name": "The Shins",
+        "url": "http://www.theshins.com"
+    },
+    {
+        "name": "Jeff Buckley",
+        "url": "http://www.jeffbuckley.com"
+    },
+    {
+        "name": "The Clash",
+        "url": "http://www.theclash.com"
+    },
+    {
+        "name": "Lauryn Hill",
+        "url": "http://www.lauryn-hill.com"
+    },
+    {
+        "name": "Led Zeppelin",
+        "url": "http://www.ledzeppelin.com"
+    },
+    {
+        "name": "Morphine",
+        "url": "http://www.lukin.com/tos/"
+    },
+    {
+        "name": "The Police",
+        "url": "http://www.thepolice.com"
+    },
+    {
+        "name": "Isley Bros.",
+        "url": "http://www.myspace.com/isleybrothers"
+    },
+    {
+        "name": "The Walkmen",
+        "url": "http://www.marcata.net/walkmen"
+    },
+    {
+        "name": "Neutral Milk Hotel",
+        "url": "http://www.neutralmilkhotel.com"
+    },
+    {
+        "name": "Peter Tosh",
+        "url": "http://www.myspace.com/petertoshspace"
+    },
+    {
+        "name": "Bob Marley",
+        "url": "http://www.bobmarley.com"
+    },
+    {
+        "name": "Burning Spear",
+        "url": "http://www.burningspear.net"
+    },
+    {
+        "name": "Steel Pulse",
+        "url": "http://www.steelpulse.com"
+    },
+    {
+        "name": "Toot &amp; the Maytals",
+        "url": "http://www.tootandthemaytals.com"
+    },
+    {
+        "name": "Primus",
+        "url": "http://www.primusville.com"
+    },
+    {
+        "name": "The Bad Plus",
+        "url": "http://www.thebadplus.com"
+    },
+    {
+        "name": "The Long Winters",
+        "url": "http://www.thelongwinters.com"
+    },
+    {
+        "name": "Death Cab for Cutie",
+        "url": "http://www.deathcabforcutie.com"
+    },
+    {
+        "name": "The Turtles",
+        "url": "http://www.floandeddie.com"
+    },
+    {
+        "name": "Tomahawk",
+        "url": "http://www.tomahawkband.com"
+    },
+    {
+        "name": "Nick Cave",
+        "url": "http://www.nickcaveandthebadseeds.com"
+    },
+    {
+        "name": "Dead Can Dance",
+        "url": "http://www.deadcandance.com"
+    },
+    {
+        "name": "Can",
+        "url": "http://www.spoonrecords.com"
+    },
+    {
+        "name": "Pharoah Sanders",
+        "url": "http://www.pharoahsanders.net"
+    },
+    {
+        "name": "Ornette Coleman",
+        "url": "http://www.ornettecoleman.com"
+    },
+    {
+        "name": "Steve Reich",
+        "url": "http://www.stevereich.com"
+    },
+    {
+        "name": "Mozart",
+        "url": "http://en.wikipedia.org/wiki/mozart"
+    },
+    {
+        "name": "Soft Machine",
+        "url": "http://calyx.club.fr/softmachine/index.html"
+    },
+    {
+        "name": "Elton Dean",
+        "url": "http://www.eltondean.com"
+    },
+    {
+        "name": "Frank Lowe",
+        "url": "http://www.myspace.com/franklowe"
+    },
+    {
+        "name": "Betty Carter",
+        "url": "http://www.bettycarter.org"
+    },
+    {
+        "name": "Krysztof Penderecki",
+        "url": "http://www.myspace.com/penderecki"
+    },
+    {
+        "name": "Henry Threadgill",
+        "url": "http://en.wikipedia.org/wiki/Henry_Threadgill"
+    },
+    {
+        "name": "Gil Evans",
+        "url": "http://gilevans.free.fr"
+    },
+    {
+        "name": "Roscoe Mitchell",
+        "url": "http://en.wikipedia.org/wiki/Roscoe_Mitchell"
+    },
+    {
+        "name": "Abida Parveen",
+        "url": "http://en.wikipedia.org/wiki/Abida_Parveen"
+    },
+    {
+        "name": "Frank Zappa",
+        "url": "http://www.zappa.com"
+    },
+    {
+        "name": "Sun Ra",
+        "url": "http://www.elrarecords.com"
+    },
+    {
+        "name": "Don Byron",
+        "url": "http://www.donbyron.com"
+    },
+    {
+        "name": "Mal Waldron",
+        "url": "http://en.wikipedia.org/wiki/Mal_Waldron"
+    },
+    {
+        "name": "Steve Lacy",
+        "url": "http://senators.free.fr"
+    },
+    {
+        "name": "Gil Scott Heron",
+        "url": "http://www.gilscottheron.com/GILINTRO.htm"
+    },
+    {
+        "name": "Stephen Still's 1st",
+        "url": "http://www.stephenstills.com"
+    },
+    {
+        "name": "Curtis Mayfield",
+        "url": "http://en.wikipedia.org/wiki/Curtis_Mayfield"
+    },
+    {
+        "name": "Eric Dolphy",
+        "url": "http://en.wikipedia.org/wiki/Eric_Dolphy"
+    },
+    {
+        "name": "Cornership",
+        "url": "http://www.cornershop.com"
+    },
+    {
+        "name": "AEOC",
+        "url": "http://www.myspace.com/artensembleofchicago"
+    },
+    {
+        "name": "Rahsaan Roland Kirk",
+        "url": "http://en.wikipedia.org/wiki/Rahsaan_Roland_Kirk"
+    },
+    {
+        "name": "Don Cherry",
+        "url": "http://en.wikipedia.org/wiki/Don_Cherry_(jazz)"
+    },
+    {
+        "name": "Jon Corbett",
+        "url": "http://www.johncorbettband.com"
+    },
+    {
+        "name": "Percy Sledge",
+        "url": "http://www.psledge.com"
+    },
+    {
+        "name": "King Crimson",
+        "url": "http://www.dgmlive.com"
+    },
+    {
+        "name": "Little Feat",
+        "url": "http://www.littlefeat.net"
+    },
+    {
+        "name": "Steve Coleman",
+        "url": "http://www.m-base.com"
+    },
+    {
+        "name": "Carla Bley",
+        "url": "http://www.wattxtrawatt.com"
+    },
+    {
+        "name": "Nina Simone",
+        "url": "http://www.ninasimone.com"
+    },
+    {
+        "name": "Brazilian Girls",
+        "url": "http://www.braziliangirls.info"
+    },
+    {
+        "name": "Pretenders",
+        "url": "http://www.thepretenders.com"
+    },
+    {
+        "name": "D'Angelo",
+        "url": "http://www.dangeloonline.com"
+    },
+    {
+        "name": "Secret Chiefs 3",
+        "url": "http://www.secretchiefs3.net"
+    },
+    {
+        "name": "Murder By Death",
+        "url": "http://www.murderbydeath.com"
+    },
+    {
+        "name": "Cursive",
+        "url": "http://www.cursivearmy.com"
+    },
+    {
+        "name": "Old 97s",
+        "url": "http://www.old97s.com"
+    },
+    {
+        "name": "Tom McRae",
+        "url": "http://www.tommcrae.com"
+    },
+    {
+        "name": "The National",
+        "url": "http://www.americanmary.com"
+    },
+    {
+        "name": "Archive",
+        "url": "http://archiveofficial.com"
+    },
+    {
+        "name": "The Necks",
+        "url": "http://thenecks.com"
+    },
+    {
+        "name": "Grinderman",
+        "url": "http://grinderman.com"
+    },
+    {
+        "name": "The Raconteurs",
+        "url": "http://theracounteurs.com"
+    },
+    {
+        "name": "White Stripes",
+        "url": "http://whitestripes.com"
+    },
+    {
+        "name": "Calexico",
+        "url": "http://casadecalexico.com"
+    },
+    {
+        "name": "Gojogo",
+        "url": "http://gojogo.com"
+    },
+    {
+        "name": "Full Moon Partisans",
+        "url": "http://fullmoonpartisans.com"
+    },
+    {
+        "name": "Red Hot Chili Peppers",
+        "url": "http://redhotchilipeppers.com"
+    },
+    {
+        "name": "Bar Kokhba",
+        "url": "http://last.fm/music/Bar+Kokhba"
+    },
+    {
+        "name": "Masada",
+        "url": "http://last.fm/music/Masada"
+    },
+    {
+        "name": "Electric Masada",
+        "url": "http://last.fm/music/Electric+Masada"
+    },
+    {
+        "name": "Painkiller",
+        "url": "http://last.fm/music/Painkiller"
+    },
+    {
+        "name": "Leonard Cohen",
+        "url": "http://leonardcohen.com"
+    },
+    {
+        "name": "Tequilajazzz",
+        "url": "http://tequilajazzz.com"
+    },
+    {
+        "name": "The Cinematic Orchestra",
+        "url": "http://cinematicorchestra.com"
+    },
+    {
+        "name": "Contemporary Noise Quartet",
+        "url": "http://last.fm/music/Contemporary+Noise+Quartet"
+    },
+    {
+        "name": "Umenden",
+        "url": "http://last.fm/music/Umenden"
+    },
+    {
+        "name": "Lucien Dubuis Trio",
+        "url": "http://luciendubuis.ch"
+	}]
+}

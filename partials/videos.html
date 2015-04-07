@@ -1,0 +1,10 @@
+<div class="pageContent">
+	<ul>
+		<li ng-repeat="video in videos">
+			<p>{{video.title}}</p>
+			<a ng-href="{{video.url}}">
+				<img ng-src="{{video.thumb}}">
+			</a>
+		</li>
+	</ul>
+</div>
