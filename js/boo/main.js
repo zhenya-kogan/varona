@@ -98,7 +98,7 @@ $(function() {
 		"position": "absolute",
 		"top": "50%",
 		"left": "50%",
-		"margin-left": "-400px",
+		"margin-left": "-500px",
 		"margin-top": "-300px"
 	});
 
