@@ -93,7 +93,7 @@ setInterval(function() {
 $(function() {
 
 	$('#letters').css({
-		"width": "800px",
+		"width": "1000px",
 		"height": "600px",
 		"position": "absolute",
 		"top": "50%",
