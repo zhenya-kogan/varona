@@ -1,7 +1,14 @@
 #AddType text/html .shtml
 #AddHandler server-parsed .shtml
 # Options Indexes FollowSymLinks Includes
-# DirectoryIndex index.shtml index.html
+DirectoryIndex index.html
 
-PythonHandler mod_python.publisher
+#PythonHandler mod_python.publisher
 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule ^(.*) /index.html [NC,L]

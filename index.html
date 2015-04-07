@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html ng-app="Vrn">
+<head>
+    <title>VARONA</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" media="screen" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="/css/responsive.css" />
+	<!--<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="/js/utils.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/controllers.js"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+
+<body ng-controller="MainCtrl" class="{{currentPage.class}}">
+
+<div class="mainNav" ng-include src="'/partials/main-nav.html'"></div>
+<img ng-repeat="picture in currentPage.backgrounds" class="illustration {{picture.position}}" ng-src="{{picture.url}}">
+<div ng-view class="page"></div>
+<div class="mainFooter">
+
+	<a class="contact_email" href="mailto:varonasf@gmail.com">varonasf@gmail.com</a>
+
+	<div class="social_and_list">
+		<div class="social_links">
+			<div class="social_wrapper fb_wrapper">
+				<div id="fb-root"></div>
+				<script>
+					(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) {
+							return;
+						};
+						js = d.createElement(s); js.id = id;
+						js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1421313008102626&version=v2.0";
+						fjs.parentNode.insertBefore(js, fjs);
+					})(document, 'script', 'facebook-jssdk');
+				</script>
+				<div class="fb-like" data-href="https://www.facebook.com/pages/Varona/19280523056" data-layout="button" data-action="like" data-show-faces="false"></div>
+			</div>
+			<div class="social_wrapper">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://varonaband.com" data-count="none" data-related="varonasf" data-text="Raw, upbeat, punk-jazz delug from @varonasf">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<div class="social_wrapper">
+				<div class="g-plusone" data-size="medium" data-annotation="none" data-href="http://varonaband.com"></div>
+			</div>
+			<!--<div class="social_wrapper">
+				<iframe class="btn" frameborder="0" border="0" scrolling="no" allowtransparency="true" height="25" width="114" src="http://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=varonasf&color_scheme=dark"></iframe>
+			</div>-->
+		</div>
+
+		<!-- Begin MailChimp Signup Form -->
+		<div class="mailing_list" id="mc_embed_signup">
+			<form action="//varonaband.us8.list-manage.com/subscribe/post?u=0ae8e6e7421204042fcf0086b&amp;id=35866ee288" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+				<div id="mce-responses">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>
+				<div class="mc-field-group">
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email">
+				</div>
+				<!-- forBots -->
+				<div style="position: absolute; left: -5000px;"><input type="text" name="b_0ae8e6e7421204042fcf0086b_35866ee288" tabindex="-1" value=""></div>
+				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+			</form>
+		</div>
+		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+		<!--End mc_embed_signup-->
+	</div>
+</div>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+	var sc_project=1421883;
+	var sc_invisible=0;
+	var sc_partition=11;
+	var sc_security="f1584dd3";
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c12.statcounter.com/1421883/0/f1584dd3/0/" alt="counter statistics" /></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+<!-- Start of Google Analytics -->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-9100164-1");
+        pageTracker._trackPageview();
+    }
+    catch(err) {}
+</script>
+<!-- End of Google Analytics -->
+
+</body>
+</html>
