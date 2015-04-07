@@ -104,7 +104,7 @@ $(function() {
 
 	$('#instructions').css({
 		"font-family": "Courier New",
-		"font-size": "14px",
+		"font-size": "20px",
 		"line-height": "1.5em",
 		"margin-top": "20px",
 		"text-align": "center"
