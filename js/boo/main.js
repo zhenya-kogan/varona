@@ -1,88 +1,7 @@
-var Letter = function() {
-	this.htmlEl = $('<div/>');
-};
-
-Letter.prototype.setValue = function(val) {
-
-	if (this.value) { return; }
-
-	var sets = Constants.sets;
-	var index = getRandomInt(0, sets[val]["values"].length - 1);
-	val = sets[val]["values"][index];
-
-	this.htmlEl.text(val);
-};
-
-Letter.prototype.hardcode = function(val) {
-	this.value = val;
-	this.htmlEl.text(val);
-	this.setColor("#ff0000");
-};
-
-Letter.prototype.reset = function() {
-	this.value = null;
-	this.setColor("#000000");
-};
-
-Letter.prototype.getValue = function() {
-	return this.value;
-};
-
-Letter.prototype.setStyle = function(params) {
-
-	this.htmlEl.css({
-		"line-height": "100px",
-		"height": "100px",
-		"width": "100px",
-		"text-align": "center",
-		"float": "left",
-		"font-family":	params.family,
-		"font-size":	params.size + "px" ,
-		"opacity": params.opacity
-	});
-};
-
-Letter.prototype.setColor = function(color) {
-	this.htmlEl.css({
-		"color": color
-	});
-};
-
-Letter.prototype.append = function() {
-	$('#letters').append(this.htmlEl);
-};
-
-Letter.prototype.set = function(self) {
-	self = self || this;
-
-	self.setValue(currentSetName);
-	
-	var maxSize;
-	if (this.value) {
-		maxSize = 200;
-	} else {
-		maxSize = Constants.sets[currentSetName]["maxSize"] || 200;
-	}
-
-	self.setStyle({
-		"family": Constants.fontFamilies[
-			getRandomInt(0, Constants.fontFamilies.length - 1)],
-		"size": getRandomInt(48, maxSize),
-		"opacity": getRandomInt(0, 10) / 10
-	});
-
-};
-
-Letter.prototype.init = function() {
-	var self = this;
-	this.append();
-	window.setInterval(function() { self.set(self) }, getRandomInt(100, 1000));
-	//self.set();
-};
-
 var currentSetName = "varona";
 var currentCharIndex = 0;
 var letters = [];
+var music = new BooMusic();
 
 setInterval(function() {
 	var sets = Constants.sets;
@@ -103,6 +22,7 @@ $(function() {
 	});
 
 	$('#instructions').css({
+		"display": "none",
 		"font-family": "Courier New",
 		"font-size": "20px",
 		"line-height": "1.5em",
@@ -111,9 +31,10 @@ $(function() {
 	});
 	
 	for (var i = 0; i < 60 ; i++) {
-		letters[i] = new Letter();
+		letters[i] = new BooLetter();
 		letters[i].init();
 	}
+	music.init();
 	
 	window.onkeydown = function(event) {
 		event = event || window.event; //IE does not pass the event object
@@ -132,9 +53,10 @@ $(function() {
 
 			event.preventDefault();
 
-			for (var i = 0; i < 60 ; i++) {
-				letters[i].reset();
-			}
+			_.each(letters, function(el) {
+				el.reset();
+			});
+
 			currentCharIndex = 0;
 			return;
 
