@@ -31,8 +31,15 @@ $(function() {
 	});
 	
 	for (var i = 0; i < 60 ; i++) {
-		letters[i] = new BooLetter();
-		letters[i].init();
+		var l = new BooLetter();
+		if (i > 11 && i < 18) {
+			l.hardcode(Constants.bandName[i-12]);	
+		}
+		if (i > 45 && i < 49) {
+			l.hardcode(Constants.songName[i-46]);	
+		}
+		l.init();
+		letters[i] = l;
 	}
 	music.init();
 	

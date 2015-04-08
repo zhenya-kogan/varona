@@ -36,12 +36,15 @@ Constants.sets = {
 		values: [ "0", "1" ]
 	},
 	varona: {
-		values: [ "v", "a", "r", "o", "n", "a", "V", "A", "R", "O", "N", "A" ]
+		values: [ "V", "a", "r", "o", "n", "a", "v", "A", "R", "O", "N", "A" ]
 	},
 	varonaRu: {
 		values: [ "в", "а", "р", "о", "н", "а", "В", "А", "Р", "О", "Н", "А"]
 	}
 };
+
+Constants.bandName = "Varona";
+Constants.songName = "Boo";
 
 Constants.fontFamilies = [
 	"Arial",

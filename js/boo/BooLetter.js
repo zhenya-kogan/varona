@@ -68,7 +68,7 @@ BooLetter.prototype.set = function(self) {
 		"family": Constants.fontFamilies[
 			getRandomInt(0, Constants.fontFamilies.length - 1)],
 		"size": getRandomInt(48, maxSize),
-		"opacity": getRandomInt(0, 10) / 10
+		"opacity": getRandomInt(this.value ? 1 : 0, 10) / 10
 	});
 
 };
