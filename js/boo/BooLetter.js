@@ -14,9 +14,11 @@ BooLetter.prototype.setValue = function(val) {
 };
 
 BooLetter.prototype.hardcode = function(val) {
-	this.value = val;
-	this.htmlEl.text(val);
-	this.setColor("#ff0000");
+	if (val && val !== " ") {
+		this.value = val;
+		this.htmlEl.text(val);
+		this.setColor("#ff0000");
+	}
 };
 
 BooLetter.prototype.reset = function() {
@@ -67,7 +69,9 @@ BooLetter.prototype.set = function(self) {
 	self.setStyle({
 		"family": Constants.fontFamilies[
 			getRandomInt(0, Constants.fontFamilies.length - 1)],
-		"size": getRandomInt(48, maxSize),
+		"size": this.value ? 
+			getRandomInt(100, 120) :
+			getRandomInt(48, maxSize),
 		"opacity": getRandomInt(this.value ? 1 : 0, 10) / 10
 	});
 

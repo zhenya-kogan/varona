@@ -2,6 +2,7 @@ var currentSetName = "varona";
 var currentCharIndex = 0;
 var letters = [];
 var music = new BooMusic();
+var lyrics = new BooLyrics();
 
 setInterval(function() {
 	var sets = Constants.sets;

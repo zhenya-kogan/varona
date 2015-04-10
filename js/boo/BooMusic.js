@@ -29,6 +29,10 @@ BooMusic.prototype.init = function() {
 	this.htmlEl.addEventListener("pause", function() {
 		self.pausePlayingListener(self);
 	});
+	this.htmlEl.addEventListener("timeupdate", function() {
+		console.log(this.currentTime);
+		lyrics.showLyric(this.currentTime);
+	});
 };
 
 BooMusic.prototype.startPlayingListener = function(self) {
