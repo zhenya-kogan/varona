@@ -38,7 +38,7 @@ BooMusic.prototype.init = function() {
 BooMusic.prototype.startPlayingListener = function(self) {
 	console.log('started playing');
 
-	$("#instructions").show();
+	//$("#instructions").show();
 	_.each(letters, function(el) {
 		el.start();
 	});
@@ -47,7 +47,7 @@ BooMusic.prototype.startPlayingListener = function(self) {
 BooMusic.prototype.pausePlayingListener = function(self) {
 	console.log('paused playing');
 
-	$("#instructions").hide();
+	//$("#instructions").hide();
 	_.each(letters, function(el) {
 		el.pause();
 	});
