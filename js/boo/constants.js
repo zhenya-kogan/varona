@@ -56,10 +56,6 @@ Constants.lyrics = [
 		time: 9.5
 	},
 	{
-		time: 10
-
-	},
-	{
 		word: "Booooo",
 		time: 28.060233
 	},
@@ -159,6 +155,49 @@ Constants.lyrics = [
 	{
 		word: "",
 		time: 134.250994
+	},
+	{
+		word: "Booooo",
+		firstCharIndex: 3,
+		time: 192.460756
+	},
+	{
+		word: "Booooo",
+		firstCharIndex: 20,
+		time: 194.736221
+	},
+	{
+		word: "Boooo",
+		firstCharIndex: 31,
+		time: 197.011686
+	},
+	{
+		word: "Booo",
+		firstCharIndex: 54,
+		time: 199.426465
+	},
+	{
+		word: "Booooo",
+		time: 201.516178
+	},
+	{
+		word: "Booooo",
+		firstCharIndex: 33,
+		time: 203.977395
+	},
+	{
+		word: "Booo",
+		firstCharIndex: 41,
+		time: 206.25286
+	},
+	{
+		word: "Boooo",
+		firstCharIndex: 54,
+		time: 208.528325
+	},
+	{
+		word: "",
+		time: 210.826979
 	}
 ];
 
