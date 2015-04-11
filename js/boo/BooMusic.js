@@ -39,7 +39,7 @@ BooMusic.prototype.startPlayingListener = function(self) {
 	console.log('started playing');
 
 	//$("#instructions").show();
-	_.each(letters, function(el) {
+	_.each(cells, function(el) {
 		el.start();
 	});
 };
@@ -48,8 +48,8 @@ BooMusic.prototype.pausePlayingListener = function(self) {
 	console.log('paused playing');
 
 	//$("#instructions").hide();
-	_.each(letters, function(el) {
-		el.pause();
+	_.each(cells, function(el) {
+		el.stop();
 	});
 };
 

@@ -1,5 +1,7 @@
 var Constants = {};
 
+Constants.imageFolder = "images/boo/";
+
 Constants.sets = {
 	circles: {
 		values: [
@@ -49,128 +51,113 @@ Constants.songName = "Boo";
 Constants.lyrics = [
 	{
 		word: "",
-		firstLetterIndex: 0,
-		time: 18.736192
+		fileName: [ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /* repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", "none"],
+		//time: 18.736192
+		time: 9.5
+	},
+	{
+		time: 10
+
 	},
 	{
 		word: "Booooo",
-		firstLetterIndex: 0,
-		clearPrev: true,
 		time: 28.060233
 	},
 	{
 		word: "Booooo",
-		firstLetterIndex: 23,
+		firstCharIndex: 23,
 		time: 30.382133
 	},
 	{
 		word: "Booo",
-		firstLetterIndex: 31,
+		firstCharIndex: 31,
 		time: 32.564722
 	},
 	{
 		word: "Boooo",
-		firstLetterIndex: 44,
+		firstCharIndex: 44,
 		time: 34.979501
 	},
 	{
 		word: "In a small town     where it's never    hot nor      cold",
-		firstLetterIndex: 0,
 		time: 37.62647
 	},
 	{
 		word: "in a clay house     lived       a girl",
-		firstLetterIndex: 0,
 		time: 40.654928
 	},
 	{
 		word: "named Boo",
-		firstLetterIndex: 50,
+		firstCharIndex: 50,
 		time: 43.510874
 	},
 	{
 		word: "every day  she was   wondering  the      streets",
-		firstLetterIndex: 0,
 		time: 46.517864
 	},
 	{
 		word: "  telling    people",
-		firstLetterIndex: 0,
 		time: 48.8048
 	},
 	{
 		word: "  satan's tales of      love",
-		firstLetterIndex: 30,
+		firstCharIndex: 30,
 		time: 51.254558
 	},
 	{
 		word: "",
-		firstLetterIndex: 0,
 		time: 56.525277
 	},
 	{
 		word: " one day             she came                 home",
-		firstLetterIndex: 0,
 		time: 101.39622
 	},
 	{
 		word: "she walkedinto her     bedroom           looked at the wall",
-		firstLetterIndex: 0,
 		time: 102.85902
 	},
 	{
 		word: "            but the   mirror      wasn't   there",
-		firstLetterIndex: 0,
 		time: 105.343456
 	},
 	{
 		word: "          the       reflectionwas on the  floor",
-		firstLetterIndex: 0,
 		time: 110.637391
 	},
 	{
 		word: "             broken             into                 many",
-		firstLetterIndex: 0,
 		time: 112.193067
 	},
 	{
 		word: "many many  many many",
-		firstLetterIndex: 0,
 		time: 114.723941
 	},
 	{
 		word: "                     many manymany many",
-		firstLetterIndex: 0,
 		time: 116.723941
 	},
 	{
 		word: "                                        many many  many many",
-		firstLetterIndex: 0,
 		time: 118.723941
 	},
 	{
 		word: "many many many many",
-		firstLetterIndex: 0,
 		time: 121.78252
 	},
 	{
 		word: "                     many many many many",
-		firstLetterIndex: 0,
 		time: 123.78252
 	},
 	{
 		word: "                                        many many  many many",
-		firstLetterIndex: 0,
 		time: 125.78252
 	},
 	{
 		word: "                                 pieces",
-		firstLetterIndex: 0,
 		time: 128.667295
 	},
 	{
 		word: "",
-		firstLetterIndex: 0,
 		time: 134.250994
 	}
 ];

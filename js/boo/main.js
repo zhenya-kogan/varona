@@ -1,6 +1,6 @@
 var currentSetName = "varona";
 var currentCharIndex = 0;
-var letters = [];
+var cells = [];
 var music = new BooMusic();
 var lyrics = new BooLyrics();
 
@@ -12,7 +12,7 @@ setInterval(function() {
 
 $(function() {
 
-	$('#letters').css({
+	$('#cells').css({
 		"width": "1000px",
 		"height": "600px",
 		"position": "absolute",
@@ -32,19 +32,20 @@ $(function() {
 	});
 	
 	for (var i = 0; i < 60 ; i++) {
-		var l = new BooLetter();
+		var cell = new BooCell({index: i});
 		if (i > 11 && i < 18) {
-			l.hardcode(Constants.bandName[i-12]);	
+			cell.hardcodeCharValue(Constants.bandName[i-12]);	
 		}
 		if (i > 45 && i < 49) {
-			l.hardcode(Constants.songName[i-46]);	
+			cell.hardcodeCharValue(Constants.songName[i-46]);	
 		}
-		l.init();
-		letters[i] = l;
+		cell.init();
+		cells[i] = cell;
 	}
 	music.init();
 	
-	window.onkeydown = function(event) {
+	// disable typing functionality for now
+	/*window.onkeydown = function(event) {
 		event = event || window.event; //IE does not pass the event object
 		
 		if (event.keyCode === 8) { // backspace -- erase last typed character
@@ -54,15 +55,15 @@ $(function() {
 			if (currentCharIndex > 0) {
 				currentCharIndex--;
 			}
-			letters[currentCharIndex].reset();
+			cells[currentCharIndex].resetChar();
 			return;
 
 		} else if (event.keyCode === 27) { // escape -- erase all typed characters
 
 			event.preventDefault();
 
-			_.each(letters, function(el) {
-				el.reset();
+			_.each(cells, function(el) {
+				el.resetChar();
 			});
 
 			currentCharIndex = 0;
@@ -72,7 +73,7 @@ $(function() {
 
 			event.preventDefault();
 
-			if (currentCharIndex < letters.length) {
+			if (currentCharIndex < cells.length) {
 				currentCharIndex++;
 			}
 
@@ -80,18 +81,18 @@ $(function() {
 
 			event.preventDefault();
 
-			if (currentCharIndex < letters.length - 10) {
+			if (currentCharIndex < cells.length - 10) {
 				currentCharIndex = currentCharIndex + 10 - (currentCharIndex % 10);
 			}
 
 		} else if ((typeof event.which === "undefined") || ((typeof event.which === "number" && event.which > 0) && (!event.ctrlKey && !event.metaKey && !event.altKey && event.which != 8))) {
 
-			if (currentCharIndex < letters.length) {
-				letters[currentCharIndex].hardcode(String.fromCharCode(event.keyCode));
+			if (currentCharIndex < cells.length) {
+				cells[currentCharIndex].hardcodeCharValue(String.fromCharCode(event.keyCode));
 				currentCharIndex++;
 			}
 				
 		}
-    }
+    }*/
 	
 });
