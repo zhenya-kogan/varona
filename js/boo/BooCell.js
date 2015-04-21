@@ -73,25 +73,65 @@ BooCell.prototype.setCharColor = function(color) {
 BooCell.prototype.setCharBackgroundColor = function() {
 
 	var color;
+	var bgColor = this.backgroundColor;
 
-	if (this.backgroundColor === "bw") {
-		color = "rgba({0}, {0}, {0}, 1)".format(
-			getRandomInt(0, 255)
-		);
-	} else if (this.backgroundColor === "red") {
-		var red = getRandomInt(0, 255);
-		color = "rgba({0}, 0, 0, 1)".format(
-			red
-		);
-	} else if (this.backgroundColor === "random") {
-		color = "rgba({0}, {1}, {2}, 1)".format(
-			getRandomInt(0, 255),
-			getRandomInt(0, 255),
-			getRandomInt(0, 255)
-		);
+	if (bgColor) {
+		if (bgColor.grayscale) {
+			color = "rgba({0}, {0}, {0}, 1)".format(
+				getRandomInt(
+					bgColor.min || 0,
+					bgColor.max || 255
+				)
+			);
+		} else {
+			var red = bgColor.red || {};
+			var green = bgColor.green|| {};
+			var blue = bgColor.blue || {};
+
+			var redValue = !isNaN(red.value) ?
+				red.value :
+				getRandomInt(
+					red.min || 0,
+					red.max || 255
+				);
+			var greenValue = !isNaN(green.value) ?
+				green.value :
+				getRandomInt(
+					green.min || 0,
+					green.max || 255
+				);
+			var blueValue = !isNaN(blue.value) ?
+				blue.value :
+				getRandomInt(
+					blue.min || 0,
+					blue.max || 255
+				);
+			color = "rgba({0}, {1}, {2}, 1)".format(
+				redValue,
+				greenValue,
+				blueValue
+			);
+		/*} else {
+			color = "rgba({0}, {1}, {2}, 1)".format(
+				getRandomInt(0, 255),
+				getRandomInt(0, 255),
+				getRandomInt(0, 255)
+			);*/
+		}
 	} else {
 		color = "transparent";
 	}
+
+	/*switch (bgColor) {
+		case "red":
+			var red = getRandomInt(0, 255);
+			color = "rgba({0}, 0, 0, 1)".format(
+				red
+			);
+			break;
+		default:
+			color = "transparent";
+	}*/
 	this.htmlEl.css({
 		"background-color": color
 	});

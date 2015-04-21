@@ -204,65 +204,235 @@ Constants.lyrics = [
 	},
 	{
 		word: "                                 pieces",
+		backgroundColor: {
+			grayscale: true,
+			min: 200,
+			max: 255
+		},
 		time: 128.667295
 	},
 	{
 		word: "",
-		backgroundColor: "bw",
-		time: 134.250994
+		backgroundColor: {
+			grayscale: true,
+			min: 150,
+			max: 200
+		},
+		time: 133.195385
 	},
 	{
 		word: "",
-		backgroundColor: "red",
-		time: 142.111481
+		backgroundColor: {
+			grayscale: true,
+			min: 100,
+			max: 150
+		},
+		time: 136.747892
 	},
 	{
 		word: "",
-		backgroundColor: "random",
-		time: 160
+		backgroundColor: {
+			grayscale: true,
+			min: 50,
+			max: 100
+		},
+		time: 142.274014
+	},
+	{
+		word: "",
+		backgroundColor: {
+			grayscale: true,
+			min: 0,
+			max: 50
+		},
+		time: 146.7785
+	},
+	{
+		word: "",
+		backgroundColor: {
+			grayscale: true,
+			min: 0,
+			max: 100
+		},
+		time: 151.491957
+	},
+	{
+		word: "",
+		backgroundColor: {
+			grayscale: true,
+			min: 0,
+			max: 150
+		},
+		time: 153.697762
+	},
+	{
+		word: "",
+		backgroundColor: {
+			grayscale: true,
+			min: 0,
+			max: 200
+		},
+		time: 155.996443
+	},
+	{
+		word: "",
+		backgroundColor: {
+			grayscale: true,
+			min: 0,
+			max: 255
+		},
+		time: 158.202248
+	},
+	{
+		word: "",
+		backgroundColor: {
+			red: {},
+			green: {
+				value: 0
+			},
+			blue: {
+				value: 0
+			}
+		},
+		time: 160.617024
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 162.822829
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 165.191167
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 167.396972
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 169.672434
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 171.947896
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 173.782197
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 176.522039
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 178.843939
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 181.096182
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 182.791169
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 185.693544
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 187.922568
+	},
+	{
+		word: "",
+		backgroundColor: {
+		},
+		time: 190.221249
 	},
 	{
 		word: "Booooo",
 		firstCharIndex: 3,
-		time: 192.460756
+		backgroundColor: {
+		},
+		time: 192.496711
 	},
 	{
 		word: "Booooo",
 		firstCharIndex: 20,
-		time: 194.736221
+		backgroundColor: {
+		},
+		time: 194.772173
 	},
 	{
 		word: "Boooo",
 		firstCharIndex: 31,
-		time: 197.011686
+		backgroundColor: {
+		},
+		time: 197.117292
 	},
 	{
 		word: "Booo",
 		firstCharIndex: 54,
-		time: 199.426465
+		backgroundColor: {
+		},
+		time: 199.392754
 	},
 	{
 		word: "Booooo",
-		time: 201.516178
+		backgroundColor: {
+		},
+		time: 201.57534
 	},
 	{
 		word: "Booooo",
 		firstCharIndex: 33,
-		time: 203.977395
+		backgroundColor: {
+		},
+		time: 203.966897
 	},
 	{
 		word: "Booo",
 		firstCharIndex: 41,
-		time: 206.25286
+		backgroundColor: {
+		},
+		time: 206.195921
 	},
 	{
 		word: "Boooo",
 		firstCharIndex: 54,
-		time: 208.528325
+		backgroundColor: {
+		},
+		time: 208.54104
 	},
 	{
 		word: "",
-		time: 210.826979
+		resetBackgroundColor: true,
+		time: 210.839721
 	}
 ];
 
