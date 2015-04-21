@@ -76,7 +76,7 @@ var populatePhotoSequence = function(folder, from, to, ext) {
 };
 
 Constants.photoSequences = {};
-Constants.photoSequences.none = ["none"];
+Constants.noneArray = ["none"];
 Constants.photoSequences.zhenya = populatePhotoSequence("zhenya", 52, 65, "gif");
 Constants.photoSequences.zhenyaReverse = populatePhotoSequence("zhenya", 64, 51, "gif");
 Constants.photoSequences.wires = populatePhotoSequence("wires", 114, 166, "gif");
@@ -87,10 +87,24 @@ Constants.photoSequences.bus = populatePhotoSequence("bus", 334, 389, "gif");
 Constants.photoSequences.intersection = populatePhotoSequence("intersection", 389, 442, "gif");
 Constants.photoSequences.trees = populatePhotoSequence("trees", 202, 235, "gif");
 
+Constants.preloadedImages = [];
+
+var preloadImages = function() {
+	_.each(Constants.photoSequences, function(seq, seqName) {
+		_.each(seq, function(fileName) {
+			var image = new Image();
+			image.src = Constants.imageFolder + fileName;
+			Constants.preloadedImages.push(image);
+		});
+	});
+};
+
+preloadImages();
+
 Constants.lyrics = [
 	{
 		word: "",
-		fileName: Constants.photoSequences.zhenya.concat(Constants.photoSequences.wires, Constants.photoSequences.trees, Constants.photoSequences.none),
+		fileName: Constants.photoSequences.zhenya.concat(Constants.photoSequences.wires, Constants.photoSequences.trees, Constants.noneArray),
 		//time: 18.736192
 		time: 9.5
 	},
@@ -141,7 +155,7 @@ Constants.lyrics = [
 	},
 	{
 		word: "",
-		fileName : Constants.photoSequences.bricks.concat(Constants.photoSequences.street, Constants.photoSequences.sidewalk, Constants.photoSequences.bus, Constants.photoSequences.intersection, Constants.photoSequences.none),
+		fileName : Constants.photoSequences.bricks.concat(Constants.photoSequences.street, Constants.photoSequences.sidewalk, Constants.photoSequences.bus, Constants.photoSequences.intersection, Constants.noneArray),
 		time: 56.525277
 	},
 	{
