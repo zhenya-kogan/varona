@@ -47,17 +47,50 @@ Constants.sets = {
 
 Constants.bandName = "Varona";
 Constants.songName = "Boo";
-Constants.photoSequences = {
-	zhenya: [ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif"],
-	zhenyaReverse: [ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif" ],
-	zhenyaLoop: [ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /* repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", /*repeat */ "IMG_0052.gif", "IMG_0053.gif", "IMG_0054.gif", "IMG_0055.gif", "IMG_0056.gif", "IMG_0057.gif", "IMG_0058.gif", "IMG_0059.gif", "IMG_0060.gif", "IMG_0061.gif", "IMG_0062.gif", "IMG_0063.gif", "IMG_0064.gif", /* reverse */ "IMG_0064.gif", "IMG_0063.gif", "IMG_0062.gif", "IMG_0061.gif", "IMG_0060.gif", "IMG_0059.gif", "IMG_0058.gif", "IMG_0057.gif", "IMG_0056.gif", "IMG_0055.gif", "IMG_0054.gif", "IMG_0053.gif", "IMG_0052.gif", "none"],
-	wires: [ "wires/IMG_0114.gif", "wires/IMG_0115.gif", "wires/IMG_0116.gif", "wires/IMG_0117.gif", "wires/IMG_0118.gif", "wires/IMG_0119.gif", "wires/IMG_0120.gif", "wires/IMG_0121.gif", "wires/IMG_0122.gif", "wires/IMG_0123.gif", "wires/IMG_0124.gif", "wires/IMG_0125.gif", "wires/IMG_0126.gif", "wires/IMG_0127.gif", "wires/IMG_0128.gif", "wires/IMG_0129.gif", "wires/IMG_0130.gif", "wires/IMG_0131.gif", "wires/IMG_0132.gif", "wires/IMG_0133.gif", "wires/IMG_0134.gif", "wires/IMG_0135.gif", "wires/IMG_0136.gif", "wires/IMG_0137.gif", "wires/IMG_0138.gif", "wires/IMG_0139.gif", "wires/IMG_0140.gif", "wires/IMG_0141.gif", "wires/IMG_0142.gif", "wires/IMG_0143.gif", "wires/IMG_0144.gif", "wires/IMG_0145.gif", "wires/IMG_0146.gif", "wires/IMG_0147.gif", "wires/IMG_0148.gif", "wires/IMG_0149.gif", "wires/IMG_0150.gif", "wires/IMG_0151.gif", "wires/IMG_0152.gif", "wires/IMG_0153.gif", "wires/IMG_0154.gif", "wires/IMG_0155.gif", "wires/IMG_0156.gif", "wires/IMG_0157.gif", "wires/IMG_0158.gif", "wires/IMG_0159.gif", "wires/IMG_0160.gif", "wires/IMG_0161.gif", "wires/IMG_0162.gif", "wires/IMG_0163.gif", "wires/IMG_0164.gif", "wires/IMG_0165.gif"]
-},
+
+var populatePhotoSequence = function(folder, from, to, ext) {
+	folder = folder ? folder + "/" : "";
+	var zeros;
+	var sequence = [];
+	var i = from;
+	while (i !== to) {
+		if (i < 10) {
+			zeros = "000";
+		} else if (i < 100) {
+			zeros = "00";
+		} else if (i < 1000) {
+			zeros = "0";
+		} else {
+			zeros = "";
+		}
+		sequence.push(
+			"{0}IMG_{1}{2}.{3}".format(folder, zeros, i, ext)
+		);
+		if (from < to) {
+			i++;
+		} else {
+			i--;
+		}
+	};
+	return sequence;
+};
+
+Constants.photoSequences = {};
+Constants.photoSequences.none = ["none"];
+Constants.photoSequences.zhenya = populatePhotoSequence("zhenya", 52, 65, "gif");
+Constants.photoSequences.zhenyaReverse = populatePhotoSequence("zhenya", 64, 51, "gif");
+Constants.photoSequences.wires = populatePhotoSequence("wires", 114, 166, "gif");
+Constants.photoSequences.bricks = populatePhotoSequence("bricks", 519, 575, "gif");
+Constants.photoSequences.street = populatePhotoSequence("street", 314, 275, "gif");
+Constants.photoSequences.sidewalk = populatePhotoSequence("sidewalk", 166, 202, "jpg");
+Constants.photoSequences.bus = populatePhotoSequence("bus", 334, 389, "gif");
+Constants.photoSequences.intersection = populatePhotoSequence("intersection", 389, 442, "gif");
+Constants.photoSequences.trees = populatePhotoSequence("trees", 202, 235, "gif");
 
 Constants.lyrics = [
 	{
 		word: "",
-		fileName: Constants.photoSequences.zhenya.concat(Constants.photoSequences.zhenyaReverse, Constants.photoSequences.wires, Constants.photoSequences.zhenya, Constants.photoSequences.zhenyaReverse, ["none"]),
+		fileName: Constants.photoSequences.zhenya.concat(Constants.photoSequences.wires, Constants.photoSequences.trees, Constants.photoSequences.none),
 		//time: 18.736192
 		time: 9.5
 	},
@@ -108,7 +141,7 @@ Constants.lyrics = [
 	},
 	{
 		word: "",
-		fileName : [ "wires/IMG_0114.gif", "wires/IMG_0115.gif", "wires/IMG_0116.gif", "wires/IMG_0117.gif", "wires/IMG_0118.gif", "wires/IMG_0119.gif", "wires/IMG_0120.gif", "wires/IMG_0121.gif", "wires/IMG_0122.gif", "wires/IMG_0123.gif", "wires/IMG_0124.gif", "wires/IMG_0125.gif", "wires/IMG_0126.gif", "wires/IMG_0127.gif", "wires/IMG_0128.gif", "wires/IMG_0129.gif", "wires/IMG_0130.gif", "wires/IMG_0131.gif", "wires/IMG_0132.gif", "wires/IMG_0133.gif", "wires/IMG_0134.gif", "wires/IMG_0135.gif", "wires/IMG_0136.gif", "wires/IMG_0137.gif", "wires/IMG_0138.gif", "wires/IMG_0139.gif", "wires/IMG_0140.gif", "wires/IMG_0141.gif", "wires/IMG_0142.gif", "wires/IMG_0143.gif", "wires/IMG_0144.gif", "wires/IMG_0145.gif", "wires/IMG_0146.gif", "wires/IMG_0147.gif", "wires/IMG_0148.gif", "wires/IMG_0149.gif", "wires/IMG_0150.gif", "wires/IMG_0151.gif", "wires/IMG_0152.gif", "wires/IMG_0153.gif", "wires/IMG_0154.gif", "wires/IMG_0155.gif", "wires/IMG_0156.gif", "wires/IMG_0157.gif", "wires/IMG_0158.gif", "wires/IMG_0159.gif", "wires/IMG_0160.gif", "wires/IMG_0161.gif", "wires/IMG_0162.gif", "wires/IMG_0163.gif", "wires/IMG_0164.gif", "wires/IMG_0165.gif", "none" ],
+		fileName : Constants.photoSequences.bricks.concat(Constants.photoSequences.street, Constants.photoSequences.sidewalk, Constants.photoSequences.bus, Constants.photoSequences.intersection, Constants.photoSequences.none),
 		time: 56.525277
 	},
 	{
@@ -161,7 +194,18 @@ Constants.lyrics = [
 	},
 	{
 		word: "",
+		backgroundColor: "bw",
 		time: 134.250994
+	},
+	{
+		word: "",
+		backgroundColor: "red",
+		time: 142.111481
+	},
+	{
+		word: "",
+		backgroundColor: "random",
+		time: 160
 	},
 	{
 		word: "Booooo",

@@ -18,10 +18,15 @@ BooLyrics.prototype.showLyric = function(currentTime) {
 				if (charIndex < 10 || lyric.fileName) {
 					_.each(cells, function(el) {
 						if (charIndex < 10) {
+							el.setBackgroundColor(null);
 							el.resetChar();
 						}
 						if (lyric.fileName) {
+							el.setBackgroundColor(null);
 							el.setBackgroundImage(lyric.fileName);
+						}
+						if (lyric.backgroundColor) {
+							el.setBackgroundColor(lyric.backgroundColor);
 						}
 					});
 				}

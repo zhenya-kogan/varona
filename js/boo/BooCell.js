@@ -40,7 +40,7 @@ BooCell.prototype.getCharValue = function() {
 };
 
 BooCell.prototype.setCharStyle = function(params) {
-
+	
 	this.htmlEl.css({
 		"line-height": this.height + "px",
 		"height": this.height + "px",
@@ -54,6 +54,9 @@ BooCell.prototype.setCharStyle = function(params) {
 	if (!this.charValue) {
 		this.setCharColor(params.color);
 	}
+	if (this.backgroundColor) {
+		this.setCharBackgroundColor();
+	}
 };
 
 BooCell.prototype.setCharColor = function(color) {
@@ -63,6 +66,34 @@ BooCell.prototype.setCharColor = function(color) {
 	}
 	this.htmlEl.css({
 		"color": color
+	});
+};
+
+
+BooCell.prototype.setCharBackgroundColor = function() {
+
+	var color;
+
+	if (this.backgroundColor === "bw") {
+		color = "rgba({0}, {0}, {0}, 1)".format(
+			getRandomInt(0, 255)
+		);
+	} else if (this.backgroundColor === "red") {
+		var red = getRandomInt(0, 255);
+		color = "rgba({0}, 0, 0, 1)".format(
+			red
+		);
+	} else if (this.backgroundColor === "random") {
+		color = "rgba({0}, {1}, {2}, 1)".format(
+			getRandomInt(0, 255),
+			getRandomInt(0, 255),
+			getRandomInt(0, 255)
+		);
+	} else {
+		color = "transparent";
+	}
+	this.htmlEl.css({
+		"background-color": color
 	});
 };
 
@@ -127,9 +158,18 @@ BooCell.prototype.setBackgroundImage = function(fileNames, self) {
 	});
 
 	if (fileNames.length > 1) {
-		self.imageTimeout = window.setTimeout(function() { self.setBackgroundImage(fileNames.slice(1), self) }, getRandomInt(80,90));
+		self.imageTimeout = window.setTimeout(function() { self.setBackgroundImage(fileNames.slice(1), self) }, getRandomInt(180,190));
 	}
 	
+};
+
+BooCell.prototype.setBackgroundColor = function(color) {
+	this.backgroundColor = color;
+	if (!color) {
+		// reset
+		this.setCharBackgroundColor();
+	}
+	// if color -- will be taken care of in setCharStyle which is fired continuously
 };
 
 BooCell.prototype.init = function(repeat) {
