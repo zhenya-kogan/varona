@@ -288,7 +288,7 @@ Constants.lyrics = [
 		backgroundColor: {
 			red: {},
 			green: {
-				value: 0
+				value: 0 
 			},
 			blue: {
 				value: 0
@@ -299,24 +299,64 @@ Constants.lyrics = [
 	{
 		word: "",
 		backgroundColor: {
+			red: {
+				min: 50,
+				max: 255
+			},
+			green: {
+				value: 50
+			},
+			blue: {
+				value: 50
+			}
 		},
 		time: 162.822829
 	},
 	{
 		word: "",
 		backgroundColor: {
+			red: {
+				min: 100,
+				max: 255
+			},
+			green: {
+				value: 100
+			},
+			blue: {
+				value: 100
+			}
 		},
 		time: 165.191167
 	},
 	{
 		word: "",
 		backgroundColor: {
+			red: {
+				min: 150,
+				max: 255
+			},
+			green: {
+				value: 150
+			},
+			blue: {
+				value: 150
+			}
 		},
 		time: 167.396972
 	},
 	{
 		word: "",
 		backgroundColor: {
+			red: {
+				min: 200,
+				max: 255
+			},
+			green: {
+				value: 200
+			},
+			blue: {
+				value: 200
+			}
 		},
 		time: 169.672434
 	},
