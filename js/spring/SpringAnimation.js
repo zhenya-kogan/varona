@@ -46,5 +46,5 @@ SpringAnimation.prototype.animate = function(self) {
 		});
 	self.imagesHtmlEl.append(image);
 	self.fileNames.splice(index, 1);
-	setTimeout(function() { self.animate(self); }, 100);
+	setTimeout(function() { self.animate(self); }, 500);
 };

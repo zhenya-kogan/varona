@@ -34,7 +34,10 @@ SpringMusic.prototype.init = function() {
 SpringMusic.prototype.startPlayingListener = function(self) {
 	console.log('started playing');
 
-	animation.animate();
+	if (!self.started) {
+		self.started = true;
+		animation.animate();
+	}
 };
 
 SpringMusic.prototype.pausePlayingListener = function(self) {
