@@ -120,9 +120,9 @@ function($scope, $http) {
 
 		var dateArray = show.date.split("/");
 		var showDate = new Date("{0}-{1}-{2}".format(
-			"20" + dateArray[2],
-			dateArray[1],
-			dateArray[0]
+			"20" + dateArray[2],	//year
+			dateArray[0],			//month
+			dateArray[1]			//day
 		));
 		var now = new Date();
 		if (showDate > now) {
