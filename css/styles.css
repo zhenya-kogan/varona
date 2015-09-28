@@ -243,6 +243,10 @@ span.statcounter {
 	padding: 0;
 }
 
+.showsList li.old {
+	color: #ccc;
+}
+
 .showsList li.veryImportantShow {
     font-size: 21px;
     line-height: 29px;
