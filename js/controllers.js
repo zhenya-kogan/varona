@@ -118,6 +118,17 @@ function($scope, $http) {
 			show.artistRelationship || "",
 			_.pluck(show.artists, 'name'));
 
+		var dateArray = show.date.split("/");
+		var showDate = new Date("{0}-{1}-{2}".format(
+			"20" + dateArray[2],
+			dateArray[1],
+			dateArray[0]
+		));
+		var now = new Date();
+		if (showDate > now) {
+			show.upcoming = true;
+		}
+
 		return show;
 	};
 
