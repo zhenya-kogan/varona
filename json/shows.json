@@ -1,5 +1,22 @@
 {
-	"shows": [{
+	"shows": [
+	{
+		"date": "10/09/15",
+		"time": "07:00pm",
+		"venue": {
+			"name": "The Fillmore (Poster Room)",
+			"address": "1805 Geary Blvd",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Main stage:",
+		"artists": [{
+			"name": "Battles",
+			"link": "http://bttls.com"
+		}],
+		"additionalInfo": "Acoustic set."
+	},
+	{
 		"date": "02/04/12",
 		"time": "05:45pm",
 		"venue": {
