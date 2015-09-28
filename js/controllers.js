@@ -119,11 +119,12 @@ function($scope, $http) {
 			_.pluck(show.artists, 'name'));
 
 		var dateArray = show.date.split("/");
-		var showDate = new Date("{0}-{1}-{2}".format(
-			"20" + dateArray[2],	//year
-			dateArray[0],			//month
-			dateArray[1]			//day
-		));
+		var showDate = new Date(
+			2000 + Number(dateArray[2]),	//year
+			Number(dateArray[0]-1),			//month
+			Number(dateArray[1]),			//day
+			0, 0, 0
+		);
 		var now = new Date();
 		if (showDate > now) {
 			show.upcoming = true;
