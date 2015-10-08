@@ -22,13 +22,8 @@
 	},
 	{
 		"name": "Keith Yates",
-		"current": true,
 		"instruments": "saxophones, clarinet",
 		"projects": [{
-			"name": "live",
-			"instruments": ["saxophones", "clarinet"]
-		},
-		{
 			"name": "egoist",
 			"instruments": ["saxophones", "clarinet"]
 		},
@@ -43,13 +38,8 @@
 	},
 	{
 		"name": "Brandon Bradshaw",
-		"current": true,
 		"instruments": "drums, percussion",
 		"projects": [{
-			"name": "live",
-			"instruments": ["drums", "percussion", "samples"]
-		},
-		{
 			"name": "egoist",
 			"instruments": ["drums", "percussion"]
 		},
@@ -60,36 +50,28 @@
 	},
 	{
 		"name": "Elyse Weakley",
-		"current": true,
 		"instruments": "keyboard",
         "url": "http://steelnhammers.com",
 		"projects": [{
-			"name": "live",
-			"instruments": ["keyboard"]
-		},
-		{
 			"name": "colorblind",
 			"instruments": ["keyboard", "synthesizer"]
 		}]
 	},
 	{
 		"name": "Brian Rourke",
-		"current": true,
 		"instruments": "upright bass, electric bass",
         "url": "http://brianrourke.com",
 		"projects": [{
-			"name": "live",
-			"instruments": ["upright bass", "electric bass"]
-		},
-		{
 			"name": "colorblind",
 			"instruments": ["upright bass", "electric bass"]
 		}]
 	},
 	{
-		"name": "Anya Povzner",
+		"name": "Anya Kogan",
+		"current": true,
+		"instruments": "keyboard",
 		"projects": [{
-			"name": "past",
+			"name": "live",
 			"instruments": ["keyboard"]
 		},
 		{
@@ -99,6 +81,24 @@
 		{
 			"name": "debut",
 			"instruments": ["keyboard"]
+		}]
+	},
+	{
+		"name": "John McCain",
+		"current": true,
+		"instruments": "drums",
+		"projects": [{
+			"name": "live",
+			"instruments": ["drums"]
+		}]
+	},
+	{
+		"name": "Ilya Umansky",
+		"current": true,
+		"instruments": "bass",
+		"projects": [{
+			"name": "live",
+			"instruments": ["bass"]
 		}]
 	},
 	{
