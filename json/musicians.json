@@ -40,10 +40,19 @@
 	{
 		"name": "Ilya Umansky",
 		"current": true,
-		"instruments": "bass",
+		"instruments": "bass, synthesizer",
 		"projects": [{
 			"name": "live",
-			"instruments": ["bass"]
+			"instruments": ["bass", "synthesizer]
+		}]
+	},
+	{
+		"name": "Rom Kuras",
+		"current": true,
+		"instruments": "drums",
+		"projects": [{
+			"name": "live",
+			"instruments": ["drums"]
 		}]
 	},
 	{
@@ -69,13 +78,8 @@
 	},
 	{
 		"name": "Brandon Bradshaw",
-		"current": true,
 		"instruments": "drums, percussion",
 		"projects": [{
-			"name": "live",
-			"instruments": ["drums", "percussion"]
-		},
-		{
 			"name": "egoist",
 			"instruments": ["drums", "percussion"]
 		},
