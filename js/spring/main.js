@@ -27,14 +27,16 @@ var populateBrushesArray = function(folder, from, to, ext) {
 };
 
 //Constants.brushesFileNames = populateBrushesArray(null, 1, 127, "png");
-Constants.brushesFileNames = populateBrushesArray(null, 1, 127, "png");
+Constants.brushesFileNames = populateBrushesArray(null, 1, 205, "png");
 
 var music = new SpringMusic();
 var animation = new SpringAnimation();
+//var canvas = new SpringCanvas();
 
 $(function() {
 
 	animation.init();
 	music.init();
+	//canvas.init();
 
 });

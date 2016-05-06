@@ -33,7 +33,8 @@ SpringAnimation.prototype.animate = function(self) {
 		outline.fadeIn(2000);
 		return;
 	}
-	var index = getRandomInt(0, self.fileNames.length - 1);
+	//var index = getRandomInt(0, self.fileNames.length - 1);
+	var index = 0;
 	var image = $("<div>")
 		.addClass("brush")
 		.css({
@@ -46,5 +47,5 @@ SpringAnimation.prototype.animate = function(self) {
 		});
 	self.imagesHtmlEl.append(image);
 	self.fileNames.splice(index, 1);
-	setTimeout(function() { self.animate(self); }, 500);
+	setTimeout(function() { self.animate(self); }, 100);
 };
