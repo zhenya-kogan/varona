@@ -27,6 +27,9 @@
 						<span ng-if="!artist.link">{{artist.name}}</span>
 					</span>
 				</div>
+				<div ng-if="show.tickets && show.upcoming" class="showTickets">
+					<a ng-href="{{show.tickets}}">Buy tickets</a>
+				</div>
 			</li>
 		</ul>
 	</div>

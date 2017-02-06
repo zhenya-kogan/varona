@@ -1,6 +1,22 @@
 {
 	"shows": [
 	{
+		"date": "02/09/17",
+		"time": "08:00pm",
+		"venue": {
+			"name": "DNA Lounge",
+			"address": "375 11th St,",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Headliner:",
+		"artists": [{
+			"name": "Krematorij",
+			"link": "http://http://www.crematorium.ru/"
+		}],
+		"tickets": "https://www.dnalounge.com/calendar/2017/02-09.html",
+	},
+	{
 		"date": "10/09/15",
 		"time": "07:00pm",
 		"venue": {
