@@ -100,7 +100,7 @@
 	.showsPage .pageContent {
 		padding-top: 120px!important;
 	}
-	.audioPlayer {
+	.audioPlayer, .kickstarterWrapper {
 		width: auto;
 	}
 	.mainFooter .contact_email,

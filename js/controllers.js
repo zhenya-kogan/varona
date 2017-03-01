@@ -7,14 +7,14 @@ Vrn.value('Pages', {
 		path: "/",
 		skipMenu: true,
 		showOnMobile: true,
-		backgrounds: [{
+		backgrounds: [/*{
 			url: "/images/bg-manHouse.png",
 			position: "right bottom"
 		},
 		{
 			url: "/images/bg-fishFlower.png",
 			position: "left bottom"
-		}]
+		}*/]
 	},
 	music: {
 		name: "music",
@@ -169,15 +169,16 @@ function($scope, $http) {
 	$scope.setPage("videos");
 	var apiKey				= 'AIzaSyB6CAnCatf1JOjxIxgQRws8F0UGdIduQSY';
 	var channelId			= 'UC7tTRguUEyHHOUbXTvhnXHg';
-	var uploadedPlaylistId	= 'UUbW18JZRgko_mOGm5er8Yzg';
-	var uploadedPlaylistId	= 'UU7tTRguUEyHHOUbXTvhnXHg';
+	//var uploadedPlaylistId	= 'UUbW18JZRgko_mOGm5er8Yzg';
+	//var playlistId	= 'UU7tTRguUEyHHOUbXTvhnXHg'; //uploaded
+	var playlistId	= 'PLdN2LuJbLcNqWJhiY4zTv6w7oiQytGj_B'; //selected videos
 	var parts				= 'snippet,id';
 	var fields				= 'snippet(resourceId/videoId,title,thumbnails/medium)';
 	var maxResults			= 50;
 
 	var requestUrl = 'https://www.googleapis.com/youtube/v3/playlistItems?key={0}&playlistId={1}&part={2}&fields=items({3})&maxResults={4}'.format(
 		apiKey,
-		uploadedPlaylistId,
+		playlistId,
 		parts,
 		fields,
 		maxResults);
