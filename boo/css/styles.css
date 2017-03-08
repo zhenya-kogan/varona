@@ -1,0 +1,107 @@
+#cells {
+	width: 1000px;
+	height: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: -300px;
+}
+
+#playStop {
+	cursor: pointer;
+	font-size: 50px;
+	opacity: 0.9;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	width: 100px;
+	height: 100px;
+	-webkit-transition-property: width height left top margin;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: width height left top margin;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+#cells.playing #playStop {
+	cursor: pointer;
+	font-size: 50px;
+	opacity: 0.9;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	top: 100%;
+	margin-left: 0;
+	margin-top: -100px;
+	width: 100px;
+	height: 100px;
+	-webkit-transition-property: width height left top margin;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: width height left top margin;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+#playStop:hover {
+	opacity: 1;
+}
+
+#playButton, #stopButton {
+	color: white;
+	background: #4285f4;
+	border-radius: 50px;
+	height: 100px;
+	line-height: 100px;
+	width: 100px;
+}
+
+#stopButton {
+	display: none;
+}
+
+#cells.playing #stopButton {
+	display: block;
+}
+
+#cells.playing #playButton {
+	display: none;
+}
+
+#instructions {
+	display: none;
+	font-family: Courier New;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin-top: 20px;
+	text-align: center;
+}
+	
+#youtubeLink {
+	font-family: arial;
+	font-size: 36px;
+	position: fixed;
+	top: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+#kickstarterLink {
+	font-family: arial;
+	font-size: 36px;
+	position: fixed;
+	bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+#kickstarterLink img {
+	padding-left: 10px;
+	width: 180px;
+}
+
