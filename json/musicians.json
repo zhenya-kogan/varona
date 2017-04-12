@@ -196,8 +196,11 @@
 	},
 	{
 		"name": "Max Abelev",
-        "url": "http://umenden.com",
 		"projects": [{
+			"name": "live",
+			"instruments": ["sounds"]
+		},
+		{
 			"name": "colorblind",
 			"instruments": ["electronics"]
 		}]

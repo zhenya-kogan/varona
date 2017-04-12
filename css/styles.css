@@ -39,6 +39,11 @@ ul {
 	text-align: center;
 }
 
+.youtubeIframe {
+	display: block;
+	margin: auto;
+}
+
 .audioPlayer {
 	margin: 20px auto;
 	padding: 0;
