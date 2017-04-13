@@ -38,15 +38,6 @@
 		}]
 	},
 	{
-		"name": "Ilya Umansky",
-		"current": true,
-		"instruments": "bass, synthesizer",
-		"projects": [{
-			"name": "live",
-			"instruments": ["bass", "synthesizer"]
-		}]
-	},
-	{
 		"name": "Rom Kuras",
 		"current": true,
 		"instruments": "drums",
@@ -56,11 +47,31 @@
 		}]
 	},
 	{
-		"name": "Keith Yates",
+		"name": "Roman Sanchez",
 		"current": true,
-		"instruments": "saxophones, clarinet",
+		"instruments": "bass",
+		"projects": [{
+			"name": "past",
+			"instruments": ["bass"]
+		}]
+	},
+	{
+		"name": "Max Abelev",
+		"current": true,
 		"projects": [{
 			"name": "live",
+			"instruments": ["sounds"]
+		},
+		{
+			"name": "colorblind",
+			"instruments": ["electronics"]
+		}]
+	},
+	{
+		"name": "Keith Yates",
+		"instruments": "saxophones, clarinet",
+		"projects": [{
+			"name": "past",
 			"instruments": ["saxophones", "clarinet"]
 		},
 		{
@@ -74,6 +85,14 @@
 		{
 			"name": "colorblind",
 			"instruments": ["saxophones", "clarinet", "voices (6)"]
+		}]
+	},
+	{
+		"name": "Ilya Umansky",
+		"instruments": "bass, synthesizer",
+		"projects": [{
+			"name": "past",
+			"instruments": ["bass", "synthesizer"]
 		}]
 	},
 	{
@@ -192,17 +211,6 @@
 		{
 			"name": "debut",
 			"instruments": ["psaltery", "recorder"]
-		}]
-	},
-	{
-		"name": "Max Abelev",
-		"projects": [{
-			"name": "live",
-			"instruments": ["sounds"]
-		},
-		{
-			"name": "colorblind",
-			"instruments": ["electronics"]
 		}]
 	},
 	{
