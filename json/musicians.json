@@ -23,7 +23,7 @@
 	{
 		"name": "Anya Kogan",
 		"current": true,
-		"instruments": "keyboard",
+		"instruments": "keyboard, melodica, vocals",
 		"projects": [{
 			"name": "live",
 			"instruments": ["keyboard"]
@@ -58,6 +58,7 @@
 	{
 		"name": "Max Abelev",
 		"current": true,
+		"instruments": "sounds",
 		"projects": [{
 			"name": "live",
 			"instruments": ["sounds"]
