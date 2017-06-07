@@ -7,14 +7,14 @@ Vrn.value('Pages', {
 		path: "/",
 		skipMenu: true,
 		showOnMobile: true,
-		backgrounds: [/*{
+		backgrounds: [{
 			url: "/images/bg-manHouse.png",
 			position: "right bottom"
 		},
 		{
 			url: "/images/bg-fishFlower.png",
 			position: "left bottom"
-		}*/]
+		}]
 	},
 	music: {
 		name: "music",
