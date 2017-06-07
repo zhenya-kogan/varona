@@ -1,6 +1,32 @@
 {
 	"shows": [
 	{
+		"date": "06/17/17",
+		"time": "12:30am",
+		"venue": {
+			"name": "Red Marines Festival",
+			"city": "2.5 hours east of San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Note that Varona is performing on the night of Friday 6/16 into the Saturday 6/17."
+		"tickets": "http://redmarines.com"
+	},
+	{
+		"date": "06/30/17",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Neck of the Woods",
+			"address": "406 Clement St,",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "Headliner:",
+		"artists": [{
+			"name": "Fyodor Chistyakov (Nol')"
+		}],
+		"tickets": "https://www.facebook.com/events/1715065855188103/"
+	},
+	{
 		"date": "02/09/17",
 		"time": "08:00pm",
 		"venue": {
