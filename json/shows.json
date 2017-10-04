@@ -1,14 +1,13 @@
 {
 	"shows": [
 	{
-		"date": "06/17/17",
-		"time": "12:30am",
+		"date": "06/16/17",
+		"time": "11:59pm",
 		"venue": {
 			"name": "Red Marines Festival",
 			"city": "2.5 hours east of San Francisco",
 			"state": "CA"
 		},
-		"additionalInfo": "Note that Varona is performing on the night of Friday 6/16 into the Saturday 6/17."
 		"tickets": "http://redmarines.com"
 	},
 	{
