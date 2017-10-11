@@ -84,24 +84,10 @@
 	
 #youtubeLink {
 	font-family: arial;
-	font-size: 36px;
-	position: fixed;
-	top: 20px;
-	text-align: center;
-	width: 100%;
-}
-
-#kickstarterLink {
-	font-family: arial;
-	font-size: 36px;
+	font-size: 20px;
 	position: fixed;
 	bottom: 20px;
 	text-align: center;
 	width: 100%;
-}
-
-#kickstarterLink img {
-	padding-left: 10px;
-	width: 180px;
 }
 
