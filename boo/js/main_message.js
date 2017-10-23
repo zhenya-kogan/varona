@@ -1,10 +1,6 @@
 var currentSetName = "varona";
 var currentCharIndex = 0;
 var cells = [];
-var music = new BooMusic();
-var lyrics = new BooLyrics();
-var playing = false;
-
 setInterval(function() {
 	var sets = Constants.sets;
 	var setNames = _.keys(sets);
@@ -13,32 +9,17 @@ setInterval(function() {
 
 $(function() {
 
-	$('#playButton').click(function() {
-		music.htmlEl.play();
-		playing = true;
-		$('#cells').addClass('playing');
-	});
-	$('#stopButton').click(function() {
-		music.htmlEl.pause();
-		playing = false;
-		$('#cells').removeClass('playing');
-	});
-
-	for (var i = 0; i < 60 ; i++) {
+	for (var i = 0; i < 600 ; i++) {
 		var cell = new BooCell({index: i});
-		if (i > 11 && i < 18) {
-			cell.hardcodeCharValue(Constants.bandName[i-12]);	
-		}
-		if (i > 45 && i < 49) {
-			cell.hardcodeCharValue(Constants.songName[i-46]);	
-		}
 		cell.init();
 		cells[i] = cell;
 	}
-	music.init();
+	_.each(cells, function(el) {
+		el.start();
+	});
 	
 	// disable typing functionality for now
-	window.onkeydown = function(event) {
+	window.onkeyup = function(event) {
 		event = event || window.event; //IE does not pass the event object
 		
 		if (event.keyCode === 8) { // backspace -- erase last typed character
@@ -74,8 +55,8 @@ $(function() {
 
 			event.preventDefault();
 
-			if (currentCharIndex < cells.length - 10) {
-				currentCharIndex = currentCharIndex + 10 - (currentCharIndex % 10);
+			if (currentCharIndex < cells.length - 28) {
+				currentCharIndex = currentCharIndex + 28 - (currentCharIndex % 10);
 			}
 
 		} else if ((typeof event.which === "undefined") || ((typeof event.which === "number" && event.which > 0) && (!event.ctrlKey && !event.metaKey && !event.altKey && event.which != 8))) {

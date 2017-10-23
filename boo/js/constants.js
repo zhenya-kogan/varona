@@ -11,7 +11,8 @@ Constants.sets = {
 			"˚",	// Ring Above
 			"˳"		// Modifier Letter Low Ring
 		],
-		maxSize: 500
+		maxSize: 500,
+		maxSizeMessage: 250
 	},
 	parenthesis: {
 		values: [ "(", ")", "[", "]", "{", "}" ]
