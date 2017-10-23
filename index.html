@@ -19,6 +19,16 @@
 </head>
 
 <body ng-controller="MainCtrl" class="{{currentPage.class}}">
+<div id="fb-root"></div>
+<script>
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=256122505533';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
 
 <div class="mainNav" ng-include src="'/partials/main-nav.html'"></div>
 <img ng-repeat="picture in currentPage.backgrounds" class="illustration {{picture.position}}" ng-src="{{picture.url}}">
@@ -30,18 +40,6 @@
 	<div class="social_and_list">
 		<div class="social_links">
 			<div class="social_wrapper fb_wrapper">
-				<div id="fb-root"></div>
-				<script>
-					(function(d, s, id) {
-						var js, fjs = d.getElementsByTagName(s)[0];
-						if (d.getElementById(id)) {
-							return;
-						};
-						js = d.createElement(s); js.id = id;
-						js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1421313008102626&version=v2.0";
-						fjs.parentNode.insertBefore(js, fjs);
-					})(document, 'script', 'facebook-jssdk');
-				</script>
 				<div class="fb-like" data-href="https://www.facebook.com/pages/Varona/19280523056" data-layout="button" data-action="like" data-show-faces="false"></div>
 			</div>
 			<div class="social_wrapper">

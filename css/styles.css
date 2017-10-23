@@ -39,9 +39,16 @@ ul {
 	text-align: center;
 }
 
+.fb-post {
+	display: block!important;
+	margin: 0 auto 20px!important;
+	position: static!important;
+	width: 560px!important;
+}
+
 .youtubeIframe {
 	display: block;
-	margin: auto;
+	margin: 0 auto 20px;
 }
 
 .audioPlayer {

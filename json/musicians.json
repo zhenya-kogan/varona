@@ -47,15 +47,6 @@
 		}]
 	},
 	{
-		"name": "Roman Sanchez",
-		"current": true,
-		"instruments": "bass",
-		"projects": [{
-			"name": "past",
-			"instruments": ["bass"]
-		}]
-	},
-	{
 		"name": "Max Abelev",
 		"current": true,
 		"instruments": "sounds",
@@ -66,6 +57,15 @@
 		{
 			"name": "colorblind",
 			"instruments": ["electronics"]
+		}]
+	},
+	{
+		"name": "Mike Yeluashvili",
+		"current": true,
+		"instruments": "bass",
+		"projects": [{
+			"name": "live",
+			"instruments": ["bass"]
 		}]
 	},
 	{
@@ -94,6 +94,14 @@
 		"projects": [{
 			"name": "past",
 			"instruments": ["bass", "synthesizer"]
+		}]
+	},
+	{
+		"name": "Roman Sanchez",
+		"instruments": "bass",
+		"projects": [{
+			"name": "past",
+			"instruments": ["bass"]
 		}]
 	},
 	{
