@@ -69,6 +69,15 @@
 		}]
 	},
 	{
+		"name": "Justin Chin",
+		"current": true,
+		"instruments": "sasophone",
+		"projects": [{
+			"name": "live",
+			"instruments": ["saxophone"]
+		}]
+	},
+	{
 		"name": "Keith Yates",
 		"instruments": "saxophones, clarinet",
 		"projects": [{
