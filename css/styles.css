@@ -182,6 +182,12 @@ ul {
 	padding-left: 400px;
 }
 
+.homePage .pageContent p,
+.homePage .pageContent h2 {
+	width: 560px;
+	margin: 20px auto;
+}
+
 .mainFooter {
 	background: rgba(250,250,250,0.95);
 	border-top: 1px solid #eee;
