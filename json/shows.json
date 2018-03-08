@@ -1,14 +1,53 @@
 {
 	"shows": [
 	{
-		"date": "06/16/17",
-		"time": "11:59pm",
+		"date": "04/28/18",
+		"time": "08:30pm",
 		"venue": {
-			"name": "Red Marines Festival",
-			"city": "2.5 hours east of San Francisco",
+			"name": "Bottom of the Hill",
+			"address": "1233 17th St,",
+			"city": "San Francisco",
 			"state": "CA"
 		},
-		"tickets": "http://redmarines.com"
+		"artistRelationship": "With:",
+		"artists": [{
+			"name": "Atomic Ape",
+			"link": "http://www.atomicapeband.com/"
+		},
+		{
+			"name": "Consider the Source",
+			"link": "http://considerthesourcemusic.com/source/"
+		}],
+		"tickets": "https://www.facebook.com/events/334968393665031/"
+	},
+	{
+		"date": "01/20/18",
+		"time": "08:30pm",
+		"venue": {
+			"name": "Bottom of the Hill",
+			"address": "1233 17th St,",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "With:",
+		"artists": [{
+			"name": "Broun Fellinis",
+			"link": "http://brounsoun.com"
+		}],
+		"additionalInfo": "\"A Part of Your Soul\" record release show.",
+		"tickets": "https://www.facebook.com/events/146343292642150/"
+	},
+	{
+		"date": "11/10/17",
+		"time": "07:00pm",
+		"venue": {
+			"name": "Rum&Sugar",
+			"address": "823 Geary St,",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"additionalInfo": "Intimate electro-acoustic set.",
+		"tickets": "https://www.facebook.com/events/1618585584851728/"
 	},
 	{
 		"date": "06/30/17",
@@ -24,6 +63,16 @@
 			"name": "Fyodor Chistyakov (Nol')"
 		}],
 		"tickets": "https://www.facebook.com/events/1715065855188103/"
+	},
+	{
+		"date": "06/16/17",
+		"time": "11:59pm",
+		"venue": {
+			"name": "Red Marines Festival",
+			"city": "2.5 hours east of San Francisco",
+			"state": "CA"
+		},
+		"tickets": "http://redmarines.com"
 	},
 	{
 		"date": "02/09/17",
