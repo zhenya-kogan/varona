@@ -1,6 +1,23 @@
 {
 	"shows": [
 	{
+		"date": "01/31/18",
+		"time": "08:00pm",
+		"venue": {
+			"name": "Rickshaw Stop",
+			"address": "155 Fell St,",
+			"city": "San Francisco",
+			"state": "CA"
+		},
+		"artistRelationship": "With:",
+		"artists": [
+		{
+			"name": "Strike Iron",
+			"link": "http://strikeironband.com"
+		}],
+		"tickets": "https://www.facebook.com/events/334968393665031/"
+	},
+	{
 		"date": "04/28/18",
 		"time": "08:30pm",
 		"venue": {
